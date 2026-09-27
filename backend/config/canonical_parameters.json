@@ -1,0 +1,22 @@
+{
+  "canonical_parameters": [
+    "financial_strength",
+    "market_position",
+    "growth_performance",
+    "product_portfolio",
+    "customer_distribution",
+    "competitive_position",
+    "risk_stability",
+    "strategic_outlook"
+  ],
+  "parameter_vocabulary_map": {
+    "financial_strength": ["financial strength", "financial", "solvency", "capital adequacy", "roe", "pat", "net worth", "balance sheet", "aum"],
+    "market_position": ["market position", "market share", "ranking", "position", "competitor", "moat", "peer"],
+    "growth_performance": ["growth performance", "business growth", "growth", "expansion", "trajectory", "yoy", "premium growth"],
+    "product_portfolio": ["product portfolio", "insurance performance", "combined ratio", "gwp", "gross written premium", "claims", "loss ratio"],
+    "customer_distribution": ["customer distribution", "operational scale", "branch", "distribution", "agency", "network", "footprint"],
+    "competitive_position": ["competitive position", "standing", "market moat"],
+    "risk_stability": ["risk stability", "risk", "hazard", "exposure", "underwriting discipline"],
+    "strategic_outlook": ["strategic outlook", "technology activity", "strategic activity", "tech", "digital", "ai", "cloud", "m&a", "partnership", "alliances"]
+  }
+}

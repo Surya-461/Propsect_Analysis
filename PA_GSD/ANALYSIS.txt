@@ -1,0 +1,85 @@
+                    ANALYSIS
+                       │
+            ┌──────────┴──────────┐
+            ▼                     ▼
+      RFP Evidence         Prospect Evidence
+            │                     │
+            ▼                     ▼
+ "What does the RFP       "What is true about
+  require?"                the prospect?"
+            │                     │
+            └──────────┬──────────┘
+                       ▼
+                  LLM Analysis
+
+
+
+
+ Synthesis: Evidence is deduplicated, ranked by authority, conflict-resolved, and sent to LLM (Gemini Flash 
+→
+→ Ollama 
+→
+→ Deterministic Fallback).? implement by remove the Deterministic Fallback and show the error message which are cause for not generating the summary of analysis ?
+
+
+
+
+
+
+
+Industry Reports	Yes	NO (UNUSED)	industry_reports.py is never imported or called in search_router.py.
+Press Releases	Yes	NO (UNUSED)	press_releases.py is never imported or called in search_router.py.
+Official Website	Yes	NO (UNUSED)	official_website.py is never imported or called in search_router.py.
+Reports Collector	Yes	PARTIALLY UNUSED	Returns synthetic search URL which is_relevant_evidence sanitizes to empty.
+Direct CRISIL/ICRA/IRDAI APIs	No	NO	No direct REST APIs; queried via Serper/Tavily site filters.
+
+
+Tavily Query (Natural Language / Domain Filter):
+[Extracted by Regex & LLM (<8,000 Chars)]
+   ├── proposal_title: "Health Insurance Claims & Care Management Modernization RFP"
+   ├── domain: "Health Insurance"
+   ├── insurance_products: ["Health & Benefits"]
+   ├── business_objectives: ["Automate claims turnaround", "Reduce loss adjustment expense"]
+   ├── functional_requirements (Top 5):
+   │     1. "Digital FNOL submission via mobile and web portal"
+   │     2. "AI-driven automated claims triage and fraud scoring"
+   │     3. "Real-time claims adjudication and payment integration"
+   │     4. "Pre-authorization and hospital cashless network integration"
+   │     5. "Provider network management and tariff reconciliation"
+   ├── evaluation_weights: ["Technical: 40%", "Commercial: 30%", "Experience: 20%", "Security: 10%"]
+   └── timeline: ["RFP submission: 30 days", "Vendor selection: 45 days", "Go-live: 6 months"]
+
+[Dropped / Unextracted (>8,000 Chars or Excluded by Sub-parsers)]
+   ├── Specific FHIR / HL7 payload interface specifications (Dropped due to char limit)
+   ├── Detailed SOC 2 Type II audit schedules & penalty clauses (Dropped due to char limit)
+   ├── 40+ granular requirement line items in Appendix Tables (Dropped by line-count caps)
+
+
+"functional_requirements": ["Underwriting / claims functional requirement 1", ...]
+ └─► Domain Schemas: backend/config/domain_schemas.py
+     │ -> Calls backend/services/entity_resolver.py: resolve_entity() -> GLEIF / Curated Registry
+      │ -> Calls Serper API (Boolean Search) & Tavily API (NLP Search)
+       │ -> Checks GLOBAL_RESEARCH_CACHE
+[7] backend/helpers.py: verify_prospect_evidence()
+       │ -> Validates content presence, length, and title token match
+ └─► Domain Schemas: backend/config/domain_schemas.py
+     │ -> Calls backend/services/entity_resolver.py: resolve_entity() -> GLEIF / Curated Registry
+      │ -> Calls Serper API (Boolean Search) & Tavily API (NLP Search)
+       │ -> Checks GLOBAL_RESEARCH_CACHE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

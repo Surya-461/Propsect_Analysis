@@ -1,0 +1,78 @@
+INFO:ai.gemini:[AI] Calling Gemini: gemini-flash-lite-latest
+INFO:ai.gemini:[AI] Gemini response received status=200 elapsed=1.95s
+INFO:services.proposal_analysis_service:
+[PROPOSAL ANALYSIS DEBUG | ICICI Prudential Life Insurance - AI / ML Adoption]
+  Retrieved Sources (5)
+  Relevant Sources (3) | Ignored/Duplicate (2)
+  Fit Level: High | Confidence: High
+  Consolidated Summary: ICICI Prudential Life Insurance extensively deploys artificial intelligence, machine learning, and deep learning across its operational lifecycle, ranging from lead generation and automated medical underwriting to policy issuance and customer service. As detailed in industry reports, the company utilizes advanced AI engines to analyze customer data for risk assessment, deploy virtual assistants like Chatbot CIA for self-service interactions, and conduct tele or video-based medical assessments. Furthermore, the insurer leverages these cognitive technologies to drive cross-selling, strengthen fraud detection, enhance collections, and accelerate claims processing workflows.
+  Aligned Displayed Sources (3): ['business-standard.com', 'techcircle.in', 'managejournal.com']
+
+INFO:ai.gemini:[AI] Calling Gemini: gemini-flash-lite-latest
+INFO:ai.gemini:[AI] Gemini response received status=200 elapsed=1.85s
+INFO:services.proposal_analysis_service:
+[PROPOSAL ANALYSIS DEBUG | ICICI Prudential Life Insurance - Digital Transformation]
+  Retrieved Sources (5)
+  Relevant Sources (1) | Ignored/Duplicate (4)
+  Fit Level: Medium | Confidence: Medium
+  Consolidated Summary: ICICI Prudential Life Insurance demonstrates active ongoing engagement in digital transformation initiatives, managing significant revenue growth alongside aligned IT roadmaps. Evidence shows the recent adoption of advanced cloud software solutions, including Adobe Audience Manager and the Criteo Commerce Media Platform in 2022. These deployments indicate an expanding technological framework geared toward customer journey digitization and data aggregation, though direct evidence regarding health claims automation or care management workflows remains absent.
+  Aligned Displayed Sources (1): ['appsruntheworld.com']
+
+INFO:ai.gemini:[AI] Calling Gemini: gemini-flash-lite-latest
+INFO:ai.gemini:[AI] Gemini response received status=200 elapsed=1.82s
+INFO:services.proposal_analysis_service:
+[PROPOSAL ANALYSIS DEBUG | ICICI Prudential Life Insurance - Technology Modernization]
+  Retrieved Sources (5)
+  Relevant Sources (3) | Ignored/Duplicate (2)
+  Fit Level: High | Confidence: High
+  Consolidated Summary: ICICI Prudential Life Insurance demonstrates robust technology modernization through its upgraded Partner Stack 2.0 platform, which integrates advanced AI capabilities, digital onboarding tools, and over 200 API-driven partner-system integrations to process digital applications efficiently. The company operates a sophisticated and diverse technology stack that incorporates cloud applications, Cisco Systems, Zobble LMS, and R3 Corda Blockchain alongside recent marketing and analytics adoptions like Adobe Audience Manager. Furthermore, the firm leverages AI-driven platforms and automated digital workflows to optimize business operations, scale distribution networks, and support high volumes of digital transactions.
+  Aligned Displayed Sources (3): ['iireporter.com', 'appsruntheworld.com', 'prnewswire.com']
+
+INFO:services.proposal_analysis_service:[ProposalAnalysisService] No relevant public disclosures for ICICI Prudential Life Insurance - Data & Analytics
+INFO:ai.gemini:[AI] Calling Gemini: gemini-flash-lite-latest
+INFO:ai.gemini:[AI] Gemini response received status=200 elapsed=1.80s
+INFO:services.proposal_analysis_service:
+[PROPOSAL ANALYSIS DEBUG | ICICI Prudential Life Insurance - Strategic Initiative]
+  Retrieved Sources (5)
+  Relevant Sources (1) | Ignored/Duplicate (2)
+  Fit Level: Medium | Confidence: Medium
+  Consolidated Summary: ICICI Prudential Life Insurance operates as a top-tier entity in the Indian life insurance sector with substantial assets under management totaling 3,338.18 billion as of mid-2026. The company maintains an established corporate presence with structured sustainability frameworks, including a strategic environmental roadmap detailed in its Annual Report. Furthermore, the organization actively executes multi-year strategic roadmaps focused on corporate climate and community responsibilities.
+  Aligned Displayed Sources (3): ['iciciprulife.com', 'iciciprulife.com', 'iciciprulife.com']
+
+INFO:ai.gemini:[AI] Calling Gemini: gemini-flash-lite-latest
+INFO:ai.gemini:[AI] Gemini response received status=200 elapsed=1.78s
+INFO:services.proposal_analysis_service:
+[PROPOSAL ANALYSIS DEBUG | ICICI Prudential Life Insurance - Implementation Fit]
+  Retrieved Sources (5)
+  Relevant Sources (1) | Ignored/Duplicate (4)
+  Fit Level: Medium | Confidence: Medium
+  Consolidated Summary: ICICI Prudential Life Insurance demonstrates operational readiness for digital transformations through strategic investments in cloud applications and AI-driven platforms, collaborating with technology vendors like Zobble Solutions, R3 Corda, and Cisco Systems. The carrier has successfully deployed structured vendor delivery models, such as Zobble LMS, to support automated learning, certification workflows, and learner progress tracking. These established technological collaborations indicate a foundational capability to integrate third-party platforms and manage complex digital deployments.
+  Aligned Displayed Sources (1): ['appsruntheworld.com']
+
+INFO:ai.gemini:[AI] Calling Gemini: gemini-flash-lite-latest
+INFO:ai.gemini:[AI] Gemini response received status=200 elapsed=1.86s
+INFO:services.proposal_analysis_service:
+[PROPOSAL ANALYSIS DEBUG | ICICI Prudential Life Insurance - Opportunity Timing]
+  Retrieved Sources (5)
+  Relevant Sources (0) | Ignored/Duplicate (4)
+  Fit Level: Low | Confidence: Medium
+  Consolidated Summary: Publicly available digital disclosures from iciciprulife.com primarily emphasize standard life insurance product offerings, linked insurance products, and online sales benefits such as income percentages. The reviewed source material lacks direct indicators regarding urgent business triggers, executive leadership turnover, or specific procurement cycles for health claims and care management modernization. Consequently, there is no explicit temporal evidence within the current public record to confirm an active buying signal or technology obsolescence timeline aligned with the proposal requirements.
+  Aligned Displayed Sources (1): ['iciciprulife.com']
+
+ERROR:trafilatura.downloads:not a 200 response: 403 for URL https://www.sec.gov/Archives/edgar/data/1103838/000095010320014829/dp130917_20f.htm
+INFO:research.collectors.webcrawler_crawler:WebCrawlerAPI scrape notice for URL 'https://www.iciciprulife.com/about-us/investor-relations/yearly-public-disclosures.html': The read operation timed out
+ERROR:trafilatura.downloads:not a 200 response: 403 for URL https://www.iciciprulife.com/about-us/investor-relations/yearly-public-disclosures.html
+INFO:ai.gemini:[AI] Calling Gemini: gemini-flash-lite-latest
+INFO:ai.gemini:[AI] Gemini response received status=200 elapsed=1.94s
+INFO:services.proposal_analysis_service:
+[PROPOSAL ANALYSIS DEBUG | ICICI Prudential Life Insurance - Regulatory / Compliance Fit]
+  Retrieved Sources (5)
+  Relevant Sources (4) | Ignored/Duplicate (1)
+  Fit Level: High | Confidence: High
+  Consolidated Summary: ICICI Prudential Life Insurance maintains robust corporate governance and audit frameworks, supported by dedicated compliance officers who report regulatory developments quarterly and delegate compliance responsibilities to individual business departments. The company operates under the stringent regulatory oversight of the Insurance Regulatory and Development Authority of India (IRDAI) and adheres to the provisions of the Insurance Act of 1938. Furthermore, the firm manages official public disclosures under registration number 105 and enforces comprehensive privacy and confidentiality policies governing user data and website interactions.
+  Aligned Displayed Sources (4): ['sebi.gov.in', 'sec.gov', 'iciciprulife.com', 'iciciprulife.com']
+
+INFO:ai.gemini:[AI] Calling Gemini: gemini-flash-lite-latest
+INFO:ai.gemini:Gemini pacing delay 2.04s
+INFO:ai.gemini:[AI] Gemini response received status=200 elapsed=2.98s
+INFO:services.proposal_analysis_service:[ProposalAnalysisService] Proposal-Based Prospect Analysis complete for 'ICICI Prudential Life Insurance' (ID: PA-D02D611D, Params: 11)

@@ -1,0 +1,26 @@
+{
+  "hdfc": {
+    "question": "Which HDFC entity would you like to analyze?",
+    "options": ["HDFC Life", "HDFC ERGO", "HDFC Bank", "Other"]
+  },
+  "icici": {
+    "question": "Which ICICI entity would you like to analyze?",
+    "options": ["ICICI Lombard", "ICICI Prudential Life", "ICICI Bank", "Other"]
+  },
+  "sbi": {
+    "question": "Which SBI entity would you like to analyze?",
+    "options": ["SBI Life Insurance", "SBI General Insurance", "SBI Bank", "Other"]
+  },
+  "bajaj": {
+    "question": "Which Bajaj entity would you like to analyze?",
+    "options": ["Bajaj Allianz General Insurance", "Bajaj Allianz Life", "Other"]
+  },
+  "tata": {
+    "question": "Which Tata entity would you like to analyze?",
+    "options": ["Tata AIG General Insurance", "Tata AIA Life Insurance", "Other"]
+  },
+  "aditya birla": {
+    "question": "Which Aditya Birla entity would you like to analyze?",
+    "options": ["Aditya Birla Sun Life Insurance", "Aditya Birla Health Insurance", "Other"]
+  }
+}

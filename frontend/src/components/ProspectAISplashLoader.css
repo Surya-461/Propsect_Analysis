@@ -1,0 +1,312 @@
+/* Prospect AI 1-Second Futuristic Cyber Splash CSS */
+
+.prospect-splash-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 99999;
+  background: #090d16;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  overflow: hidden;
+  opacity: 1;
+  transition: opacity 0.22s ease-out;
+  box-sizing: border-box;
+}
+
+.prospect-splash-overlay.fade-out {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Cyber Blueprint Grid Background */
+.prospect-grid-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    linear-gradient(rgba(59, 130, 246, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(59, 130, 246, 0.07) 1px, transparent 1px);
+  background-size: 32px 32px;
+  opacity: 0.8;
+  z-index: 0;
+}
+
+.prospect-glow-spotlight {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(37, 99, 235, 0.25) 0%, rgba(14, 165, 233, 0.08) 45%, transparent 70%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.prospect-splash-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 480px;
+  width: 88%;
+  text-align: center;
+  padding: 2.2rem 2rem;
+  background: rgba(15, 23, 42, 0.75);
+  border: 1px solid rgba(59, 130, 246, 0.35);
+  border-radius: 18px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.6), 0 0 35px rgba(37, 99, 235, 0.2);
+  animation: prospectFastEntry 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes prospectFastEntry {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Holographic Shield Container with Laser Scan Beam */
+.prospect-logo-wrapper {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.prospect-laser-scanner {
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #38bdf8, #60a5fa, transparent);
+  box-shadow: 0 0 15px #38bdf8;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  animation: laserScan 0.9s ease-in-out infinite alternate;
+}
+
+@keyframes laserScan {
+  0% { top: 5%; opacity: 0.3; }
+  100% { top: 95%; opacity: 1; }
+}
+
+.prospect-logo-circle {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 30px rgba(37, 99, 235, 0.7);
+  z-index: 2;
+  animation: prospectPulseGlow 1s ease-in-out infinite alternate;
+}
+
+@keyframes prospectPulseGlow {
+  0% { box-shadow: 0 0 20px rgba(37, 99, 235, 0.6); transform: scale(0.98); }
+  100% { box-shadow: 0 0 40px rgba(56, 189, 248, 0.9); transform: scale(1.02); }
+}
+
+.prospect-shield-icon {
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.4));
+}
+
+.prospect-orbit-ring {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  border-top-color: #38bdf8;
+  border-right-color: #2563eb;
+  animation: prospectOrbitSpin 0.9s linear infinite;
+  z-index: 1;
+}
+
+.prospect-orbit-ring-outer {
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  width: 102px;
+  height: 102px;
+  border-radius: 50%;
+  border: 1.5px dashed rgba(147, 197, 253, 0.4);
+  animation: prospectOrbitSpinReverse 2.5s linear infinite;
+  z-index: 0;
+}
+
+@keyframes prospectOrbitSpin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes prospectOrbitSpinReverse {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
+
+/* Brand Header */
+.prospect-title-group {
+  margin-bottom: 1.25rem;
+}
+
+.prospect-top-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.68rem;
+  font-weight: 800;
+  color: #38bdf8;
+  letter-spacing: 0.15em;
+  background: rgba(56, 189, 248, 0.1);
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  margin-bottom: 0.45rem;
+}
+
+.live-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #34d399;
+  box-shadow: 0 0 8px #34d399;
+}
+
+.prospect-brand-title {
+  font-size: 2.1rem;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  margin: 0 0 0.25rem 0;
+  background: linear-gradient(90deg, #ffffff 0%, #93c5fd 50%, #38bdf8 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 25px rgba(56, 189, 248, 0.3);
+}
+
+.prospect-brand-tagline {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #94a3b8;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* Fast Precision Progress Line */
+.prospect-progress-container {
+  width: 100%;
+  margin-bottom: 1.25rem;
+}
+
+.prospect-progress-track {
+  width: 100%;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  overflow: visible;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.prospect-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #2563eb 0%, #38bdf8 100%);
+  border-radius: 10px;
+  transition: width 0.04s linear;
+  box-shadow: 0 0 14px rgba(56, 189, 248, 0.9);
+}
+
+.prospect-progress-glow-head {
+  position: absolute;
+  top: -2.5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0 0 12px #38bdf8, 0 0 20px #2563eb;
+  transform: translateX(-50%);
+  transition: left 0.04s linear;
+}
+
+.prospect-progress-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  font-size: 0.76rem;
+  color: #cbd5e1;
+  font-weight: 600;
+}
+
+.step-text {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.pulse-icon {
+  animation: pulseIcon 0.6s infinite alternate;
+}
+
+@keyframes pulseIcon {
+  from { opacity: 0.4; }
+  to { opacity: 1; }
+}
+
+.prospect-percent {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 800;
+  color: #38bdf8;
+}
+
+/* Badges Footer */
+.prospect-splash-badges {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 0.85rem;
+  width: 100%;
+}
+
+.splash-badge-item {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #94a3b8;
+  background: rgba(255, 255, 255, 0.04);
+  padding: 0.25rem 0.6rem;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}

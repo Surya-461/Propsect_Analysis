@@ -1,0 +1,1697 @@
+{
+  "proposal_id": "PROP-LIFE-001",
+  "proposal_name": "Corporate Group Term Life & Employee Pension Plan RFP",
+  "prospect_id": "INS-0114",
+  "prospect_name": "SBI Life Insurance",
+  "proposal_type": "Life / Group Life / Pension / Annuity",
+  "document_path": "",
+  "extracted_text": "\nCORPORATE GROUP TERM LIFE & RETIREMENT BENEFIT RFP\nRFP Reference No: RFP-CORP-GTL-2026-901\nIssuing Authority: Global Apex Conglomerate Enterprise\nTarget Insurance Archetype: Group Life & Employee Benefits\nPolicy Effective Date: November 1, 2026 \u2013 October 31, 2027\n\n1. COVERAGE SCOPE & LIMITS:\n- Line of Business: Group Term Life Insurance (GTL) and Group Personal Accident (GPA)\n- Total Covered Lives: 10,000 Full-time permanent employees\n- Sum Insured Limit: INR 500 Crore (Flat \u20b950 Lakh per employee across management & staff)\n- Accidental Death & Dismemberment (AD&D) Rider: 200% of base sum insured\n- Terminal Illness Acceleration: 50% prepayment upon diagnosis of terminal illness\n- Critical Illness Sub-limit: INR 100 Crore aggregate pool\n- Deductibles: Nil deductible on life claims; INR 25,000 on disability medical rider\n- Key Exclusions: Active participation in war or civil commotion; suicide within first 12 months of coverage\n\n2. PRICING & PAYMENT TERMS:\n- Estimated Annual Gross Premium Budget: INR 12.50 Crore\n- Payment Terms: Quarterly installment schedule (INR 3.125 Crore per quarter) with 30-day grace period\n- Rate Guarantee: Flat rate per mille guarantee for 24 months\n\n3. UNDERWRITING & RISK REQUIREMENTS:\n- Free Cover Limit (FCL): Up to INR 1.50 Crore per employee without medical underwriting\n- Tele-medical examination required only for coverage exceeding INR 1.50 Crore\n- Solvency Requirement: Insurer must maintain a statutory solvency margin ratio strictly above 1.75x\n- Loss Ratio Tolerance: Combined burning cost underwritten at 85% benchmark\n\n4. CLAIMS & SERVICE LEVEL AGREEMENTS (SLA):\n- Claim Intimation SLA: Online intimation within 90 days of insured event\n- Death Claim Settlement Turnaround: Mandatory payout within 7 business days of document receipt\n- Penalties: 1% monthly interest penalty on claims delayed beyond 14 business days\n- Dedicated Claims Desk: Dedicated on-site or virtual enterprise account manager\n\n5. TECHNOLOGY & INTEGRATION REQUIREMENTS:\n- Digital Enrollment: Self-service employee web & mobile portal for nominee updates and e-cards\n- System Integration: REST API integration with enterprise HRMS (Workday and Darwinbox)\n- Cybersecurity & Privacy: Insurer must possess ISO 27001 certification and DPDP Act compliance\n\n6. DYNAMIC & PROPOSAL-SPECIFIC REQUIREMENTS:\n- Multilingual Member Support: 24x7 member helpline supporting English, Hindi, Tamil, Telugu, and Marathi\n- Automated Payroll Census Reconciliation: Monthly automated SFTP census batch ingestion\n",
+  "requirements": {
+    "insurance_product": "Group Term Life Insurance (GTL) and Group Personal Accident (GPA)",
+    "coverage_limits": "INR 500 Crore (Flat \u20b950 Lakh per employee across management & staff)",
+    "sublimits": "INR 100 Crore aggregate pool",
+    "deductibles_and_retentions": "Nil deductible on life claims; INR 25,000 on disability medical rider",
+    "exclusions": [
+      "Active participation in war or civil commotion; suicide within first 12 months of coverage"
+    ],
+    "premium_and_pricing": "INR 12.50 Crore",
+    "payment_terms": "- Estimated Annual Gross Premium Budget: INR 12.50 Crore",
+    "solvency_requirements": "Insurer must maintain a statutory solvency margin ratio strictly above 1.75x",
+    "claims_sla": "Mandatory payout within 7 business days of document receipt",
+    "digital_enrollment": "Self-service employee web & mobile portal for nominee updates and e-cards",
+    "api_integration_requirements": "REST API integration with enterprise HRMS (Workday and Darwinbox)",
+    "policy_term": "November 1, 2026 \u2013 October 31, 2027"
+  },
+  "derived_parameters": [
+    {
+      "name": "Multilingual Member Support",
+      "category": "DYNAMIC & PROPOSAL-SPECIFIC",
+      "source": "Proposal-derived",
+      "recommendation": "Recommended",
+      "checked": true,
+      "description": "Insurer must provide multi-lingual 24x7 member helpline supporting regional languages.",
+      "proposal_requirement": "Multilingual Member Support: 24x7 member helpline supporting English, Hindi, Tamil, Telugu, and Marathi",
+      "proposal_evidence": "Multilingual Member Support: 24x7 member helpline supporting English, Hindi, Tamil, Telugu, and Marathi"
+    },
+    {
+      "name": "Payroll System Integration",
+      "category": "DYNAMIC & PROPOSAL-SPECIFIC",
+      "source": "Proposal-derived",
+      "recommendation": "Recommended",
+      "checked": true,
+      "description": "Direct automated integration with enterprise HRMS & payroll for monthly employee census ingestion.",
+      "proposal_requirement": "System Integration: REST API integration with enterprise HRMS (Workday and Darwinbox)",
+      "proposal_evidence": "System Integration: REST API integration with enterprise HRMS (Workday and Darwinbox)"
+    },
+    {
+      "name": "Dedicated On-Site Claims Executive",
+      "category": "DYNAMIC & PROPOSAL-SPECIFIC",
+      "source": "Proposal-derived",
+      "recommendation": "Recommended",
+      "checked": true,
+      "description": "Dedicated full-time claims executive stationed on-site at enterprise headquarters.",
+      "proposal_requirement": "Dedicated Claims Desk: Dedicated on-site or virtual enterprise account manager",
+      "proposal_evidence": "Dedicated Claims Desk: Dedicated on-site or virtual enterprise account manager"
+    }
+  ],
+  "checklist_data": {
+    "proposal_archetype": "Life / Group Life / Pension / Annuity",
+    "extracted_requirements": {
+      "insurance_product": "Group Term Life Insurance (GTL) and Group Personal Accident (GPA)",
+      "coverage_limits": "INR 500 Crore (Flat \u20b950 Lakh per employee across management & staff)",
+      "sublimits": "INR 100 Crore aggregate pool",
+      "deductibles_and_retentions": "Nil deductible on life claims; INR 25,000 on disability medical rider",
+      "exclusions": [
+        "Active participation in war or civil commotion; suicide within first 12 months of coverage"
+      ],
+      "premium_and_pricing": "INR 12.50 Crore",
+      "payment_terms": "- Estimated Annual Gross Premium Budget: INR 12.50 Crore",
+      "solvency_requirements": "Insurer must maintain a statutory solvency margin ratio strictly above 1.75x",
+      "claims_sla": "Mandatory payout within 7 business days of document receipt",
+      "digital_enrollment": "Self-service employee web & mobile portal for nominee updates and e-cards",
+      "api_integration_requirements": "REST API integration with enterprise HRMS (Workday and Darwinbox)",
+      "policy_term": "November 1, 2026 \u2013 October 31, 2027"
+    },
+    "recommended_parameters": [
+      {
+        "name": "Insurance Product / Line of Business",
+        "category": "COVERAGE & PRODUCT",
+        "source": "Master Checklist",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "Line of business, insurance product type, or policy form required by the RFP."
+      },
+      {
+        "name": "Coverage Scope",
+        "category": "COVERAGE & PRODUCT",
+        "source": "Master Checklist",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "Detailed scope of coverage, covered perils, insured events, and inclusions."
+      },
+      {
+        "name": "Coverage Limits",
+        "category": "COVERAGE & PRODUCT",
+        "source": "Master Checklist",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "Policy limits, aggregate sums insured, and primary indemnity thresholds."
+      },
+      {
+        "name": "Sublimits",
+        "category": "COVERAGE & PRODUCT",
+        "source": "Master Checklist",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "Specific coverage sub-limits, inner limits per event, disease, or asset item."
+      },
+      {
+        "name": "Deductibles & Retentions",
+        "category": "COVERAGE & PRODUCT",
+        "source": "Master Checklist",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "Self-insured retentions (SIR), mandatory deductibles, and co-pay percentages."
+      },
+      {
+        "name": "Exclusions",
+        "category": "COVERAGE & PRODUCT",
+        "source": "Master Checklist",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "Standard and specialized policy exclusions, war/cyber exclusions, unstated conditions."
+      },
+      {
+        "name": "Benefit Structure",
+        "category": "COVERAGE & PRODUCT",
+        "source": "Master Checklist",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "Employee benefit design, tiering, wellness allowances, family floater options."
+      },
+      {
+        "name": "Premium & Pricing Structure",
+        "category": "PRICING & COMMERCIAL",
+        "source": "Master Checklist",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "Gross annual premium, rate per thousand/mille, and premium calculation basis."
+      },
+      {
+        "name": "Rates",
+        "category": "PRICING & COMMERCIAL",
+        "source": "Master Checklist",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "Burn cost, mortality/morbidity rate table, actuarial pricing per category."
+      },
+      {
+        "name": "Payment Terms",
+        "category": "PRICING & COMMERCIAL",
+        "source": "Master Checklist",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "Installment schedule (annual, semi-annual, quarterly), grace periods, premium financing."
+      },
+      {
+        "name": "Underwriting Requirements",
+        "category": "UNDERWRITING & RISK",
+        "source": "Master Checklist",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "Underwriting guidelines, declaration criteria, tele-medical thresholds, warranties."
+      },
+      {
+        "name": "Loss History / Claims Experience",
+        "category": "UNDERWRITING & RISK",
+        "source": "Master Checklist",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "Historical loss ratio thresholds, burned cost adjustments, group claim history evaluation."
+      },
+      {
+        "name": "Claims Handling",
+        "category": "CLAIMS & SERVICE",
+        "source": "Master Checklist",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "In-house claims management vs TPA, dedicated claims executive, paperless filing."
+      },
+      {
+        "name": "Claims Settlement",
+        "category": "CLAIMS & SERVICE",
+        "source": "Master Checklist",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "Statutory claim settlement ratio, average turnaround time (TAT), repudiation rate."
+      },
+      {
+        "name": "Claims SLA",
+        "category": "CLAIMS & SERVICE",
+        "source": "Master Checklist",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "Service level agreement: 24/48-hr intimation, cashless approval time, disbursement TAT."
+      },
+      {
+        "name": "Service-Level Agreements",
+        "category": "CLAIMS & SERVICE",
+        "source": "Master Checklist",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "Enforceable SLA metrics, financial penalties for delayed claim settlement."
+      },
+      {
+        "name": "Similar Account Experience",
+        "category": "INSURER CAPABILITY",
+        "source": "Master Checklist",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "Proven track record managing insurance portfolios of similar size, lives, or asset scale."
+      },
+      {
+        "name": "Solvency",
+        "category": "FINANCIAL STRENGTH",
+        "source": "Master Checklist",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "Statutory Solvency Margin Ratio vs regulatory benchmark (e.g. IRDAI 1.50x min)."
+      },
+      {
+        "name": "Digital Enrollment",
+        "category": "TECHNOLOGY & DIGITAL",
+        "source": "Master Checklist",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "Self-service web/mobile portal for employee on-boarding, e-cards, and nomination."
+      },
+      {
+        "name": "API / System Integration",
+        "category": "TECHNOLOGY & DIGITAL",
+        "source": "Master Checklist",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "REST APIs for HRMS, ERP, payroll integration (e.g. Workday, Darwinbox, SAP)."
+      },
+      {
+        "name": "Cybersecurity",
+        "category": "TECHNOLOGY & DIGITAL",
+        "source": "Master Checklist",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "SOC 2 Type II, ISO 27001 certification, vulnerability management, penetration audits."
+      },
+      {
+        "name": "Data Privacy",
+        "category": "TECHNOLOGY & DIGITAL",
+        "source": "Master Checklist",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "Compliance with DPDP Act, GDPR, HIPAA, and statutory health data privacy standards."
+      },
+      {
+        "name": "Regulatory Compliance",
+        "category": "REGULATORY & COMPLIANCE",
+        "source": "Master Checklist",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "Track record of regulatory compliance, absence of sanctions or license suspensions."
+      },
+      {
+        "name": "Solvency Requirements",
+        "category": "REGULATORY & COMPLIANCE",
+        "source": "Master Checklist",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "Compliance with statutory capital rules, Solvency II / RBC capital guidelines."
+      },
+      {
+        "name": "Policy Term",
+        "category": "CONTRACT & IMPLEMENTATION",
+        "source": "Master Checklist",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "Policy inception, expiration, multi-year lock-in terms, or short-period provisions."
+      },
+      {
+        "name": "Renewal Terms",
+        "category": "CONTRACT & IMPLEMENTATION",
+        "source": "Master Checklist",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "Guaranteed renewal conditions, loss-ratio tied rate adjustments, advance notice periods."
+      }
+    ],
+    "other_parameters": [
+      {
+        "name": "Endorsements",
+        "category": "COVERAGE & PRODUCT",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Custom endorsements, policy extensions, and rider attachments required by proposal."
+      },
+      {
+        "name": "Geographic Coverage",
+        "category": "COVERAGE & PRODUCT",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Territorial limits, worldwide vs domestic coverage, overseas emergency assistance."
+      },
+      {
+        "name": "Fees & Commissions",
+        "category": "PRICING & COMMERCIAL",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Brokerage commission, TPA administration charges, and policy issuance fees."
+      },
+      {
+        "name": "Pricing Competitiveness",
+        "category": "PRICING & COMMERCIAL",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Price positioning against peer insurers, combined ratio margins, discount tolerance."
+      },
+      {
+        "name": "Financial / Commercial Terms",
+        "category": "PRICING & COMMERCIAL",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Profit sharing, low-claim bonus, rollover credits, and retrospective rating."
+      },
+      {
+        "name": "Risk Appetite",
+        "category": "UNDERWRITING & RISK",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Insurer target industries, hazardous risk tolerance, high-limit appetite."
+      },
+      {
+        "name": "Risk Exposure",
+        "category": "UNDERWRITING & RISK",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Concentration of risk, aggregate exposure per location, single-life limits."
+      },
+      {
+        "name": "Risk Selection",
+        "category": "UNDERWRITING & RISK",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Underwriting selectivity, decline rates, substandard life loading policies."
+      },
+      {
+        "name": "Catastrophe Exposure",
+        "category": "UNDERWRITING & RISK",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Natural catastrophe (NatCat), earthquake, pandemic, and terror exposure limits."
+      },
+      {
+        "name": "Risk Mitigation",
+        "category": "UNDERWRITING & RISK",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Loss control advisory, risk engineering surveys, proactive risk management."
+      },
+      {
+        "name": "Loss Control",
+        "category": "UNDERWRITING & RISK",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Workplace safety audits, fire protection guidelines, cyber posture assessment."
+      },
+      {
+        "name": "Policy Administration",
+        "category": "CLAIMS & SERVICE",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Mid-term member addition/deletion processing, endorsement issuance timelines."
+      },
+      {
+        "name": "Customer Service",
+        "category": "CLAIMS & SERVICE",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "24x7 helpdesk, dedicated account relationship manager, multi-channel support."
+      },
+      {
+        "name": "Complaint Handling",
+        "category": "CLAIMS & SERVICE",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Grievance redressal mechanism, IRDAI Bima Bharosa compliance, dispute escalation."
+      },
+      {
+        "name": "Reporting / Performance",
+        "category": "CLAIMS & SERVICE",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Monthly claims MIS, utilization analytics, loss ratio reporting, executive dashboard."
+      },
+      {
+        "name": "Product Capability",
+        "category": "INSURER CAPABILITY",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Demonstrated technical underwriting capacity and portfolio maturity in requested line."
+      },
+      {
+        "name": "Industry Experience",
+        "category": "INSURER CAPABILITY",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Years of experience underwriting commercial accounts in the client's industry sector."
+      },
+      {
+        "name": "Geographic Capability",
+        "category": "INSURER CAPABILITY",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Pan-country branch network, hospital/garage cashless network coverage across regions."
+      },
+      {
+        "name": "Distribution Capability",
+        "category": "INSURER CAPABILITY",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Institutional broker relationships, corporate agents, direct enterprise distribution."
+      },
+      {
+        "name": "Underwriting Capacity",
+        "category": "INSURER CAPABILITY",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Maximum net line retention per risk, automatic treaty capacity, syndication capability."
+      },
+      {
+        "name": "Claims Infrastructure",
+        "category": "INSURER CAPABILITY",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Specialized in-house medical doctors, survey engineers, fraud investigation unit."
+      },
+      {
+        "name": "Operational Capacity",
+        "category": "INSURER CAPABILITY",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Back-office scalability, enterprise headcount, processing volume capabilities."
+      },
+      {
+        "name": "Financial Strength",
+        "category": "FINANCIAL STRENGTH",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Gross Written Premium (GWP), asset base, shareholder equity, and financial scale."
+      },
+      {
+        "name": "Credit Rating",
+        "category": "FINANCIAL STRENGTH",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Independent insurer financial strength ratings (AM Best, S&P, CRISIL, ICRA, CARE)."
+      },
+      {
+        "name": "Capital Adequacy",
+        "category": "FINANCIAL STRENGTH",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Regulatory capital buffer, paid-up capital, free reserves, solvency margin."
+      },
+      {
+        "name": "Balance Sheet Strength",
+        "category": "FINANCIAL STRENGTH",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Assets under management (AUM), technical reserves, liquidity, investment yield."
+      },
+      {
+        "name": "Reinsurance Support",
+        "category": "FINANCIAL STRENGTH",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Financial strength of backing reinsurers (Swiss Re, Munich Re, GIC Re) on treaty panel."
+      },
+      {
+        "name": "Financial Stability",
+        "category": "FINANCIAL STRENGTH",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Long-term profitability trends, combined ratio persistency, return on equity."
+      },
+      {
+        "name": "Reinsurance Capacity",
+        "category": "REINSURANCE",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Automatic treaty capacity per cession, surplus limits, retrocession protections."
+      },
+      {
+        "name": "Treaty Capability",
+        "category": "REINSURANCE",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Proportional (Quota Share) and Non-Proportional (XOL) treaty management."
+      },
+      {
+        "name": "Facultative Capability",
+        "category": "REINSURANCE",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Capacity to arrange facultative reinsurance placements for mega-risks."
+      },
+      {
+        "name": "Quota Share",
+        "category": "REINSURANCE",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Proportional treaty terms, ceding commission rates, and portfolio sharing."
+      },
+      {
+        "name": "Excess of Loss",
+        "category": "REINSURANCE",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Non-proportional risk and event excess of loss layers, attachment points."
+      },
+      {
+        "name": "Stop Loss",
+        "category": "REINSURANCE",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Aggregate stop-loss protection for self-funded or enterprise group health plans."
+      },
+      {
+        "name": "Catastrophe Capacity",
+        "category": "REINSURANCE",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Catastrophe reinsurance treaty coverage, multi-event reinstatement terms."
+      },
+      {
+        "name": "Retrocession",
+        "category": "REINSURANCE",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Retrocessionaire protections and international risk transfer capacity."
+      },
+      {
+        "name": "Digital Policy Administration",
+        "category": "TECHNOLOGY & DIGITAL",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Automated underwriting engine, digital endorsements, instant policy schedule generation."
+      },
+      {
+        "name": "Digital Claims",
+        "category": "TECHNOLOGY & DIGITAL",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Mobile claim intimation, OCR document scanning, AI cashless auto-adjudication."
+      },
+      {
+        "name": "Customer Portal",
+        "category": "TECHNOLOGY & DIGITAL",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Enterprise HR admin dashboard and member mobile app capabilities."
+      },
+      {
+        "name": "Data Integration",
+        "category": "TECHNOLOGY & DIGITAL",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Secure SFTP data feeds, automated member reconciliation, batch data sync."
+      },
+      {
+        "name": "Automation",
+        "category": "TECHNOLOGY & DIGITAL",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Straight-through processing (STP) rate for standard renewals and claims."
+      },
+      {
+        "name": "Technology Infrastructure",
+        "category": "TECHNOLOGY & DIGITAL",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Cloud hosting resilience (AWS, Azure), 99.9% uptime SLA, disaster recovery."
+      },
+      {
+        "name": "Licensing / Authorization",
+        "category": "REGULATORY & COMPLIANCE",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Valid statutory insurance certificate from primary regulator (IRDAI, PRA, NAIC, FINMA)."
+      },
+      {
+        "name": "Data Protection",
+        "category": "REGULATORY & COMPLIANCE",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Local regulatory data localization mandates, encryption standards."
+      },
+      {
+        "name": "AML / KYC",
+        "category": "REGULATORY & COMPLIANCE",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Anti-money laundering procedures, beneficial ownership verification, sanctions check."
+      },
+      {
+        "name": "Insurance Regulations",
+        "category": "REGULATORY & COMPLIANCE",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Adherence to policyholder protection regulations and commercial filing guidelines."
+      },
+      {
+        "name": "Local Market Requirements",
+        "category": "REGULATORY & COMPLIANCE",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Compliance with jurisdiction-specific mandatory tariffs or statutory cess rules."
+      },
+      {
+        "name": "Contractual Compliance",
+        "category": "REGULATORY & COMPLIANCE",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Ability to execute mandatory standard contract terms without unilateral deviation."
+      },
+      {
+        "name": "Reporting Requirements",
+        "category": "REGULATORY & COMPLIANCE",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Statutory reporting compliance, public disclosures, tax filings, GST certificates."
+      },
+      {
+        "name": "Bidder Eligibility",
+        "category": "ELIGIBILITY",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Compliance with mandatory bidder qualifications, registered corporate status, no blacklisting."
+      },
+      {
+        "name": "Minimum Experience",
+        "category": "ELIGIBILITY",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Required minimum operational track record (e.g. 5+ or 10+ years in commercial insurance)."
+      },
+      {
+        "name": "Minimum Financial Requirements",
+        "category": "ELIGIBILITY",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Minimum net worth, statutory paid-up capital, or annual revenue threshold required by RFP."
+      },
+      {
+        "name": "Required Certifications",
+        "category": "ELIGIBILITY",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "ISO 9001 (Quality), ISO 27001 (Security), CMMI, or industry accreditations."
+      },
+      {
+        "name": "Required Licenses",
+        "category": "ELIGIBILITY",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Specific line-of-business underwriting licenses applicable to the RFP scope."
+      },
+      {
+        "name": "Geographic Eligibility",
+        "category": "ELIGIBILITY",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Legal authority and operational presence in all required delivery locations."
+      },
+      {
+        "name": "Similar Contract Experience",
+        "category": "ELIGIBILITY",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Documented performance on minimum number of accounts with comparable employee count."
+      },
+      {
+        "name": "Mandatory Qualifications",
+        "category": "ELIGIBILITY",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Non-negotiable qualification gates stated in the proposal document."
+      },
+      {
+        "name": "Cancellation Terms",
+        "category": "CONTRACT & IMPLEMENTATION",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Pro-rata vs short-period refund rules, termination for convenience notice windows."
+      },
+      {
+        "name": "Implementation Timeline",
+        "category": "CONTRACT & IMPLEMENTATION",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Target go-live timeline, enrollment launch, policy schedule delivery schedule."
+      },
+      {
+        "name": "Transition Requirements",
+        "category": "CONTRACT & IMPLEMENTATION",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Seamless transition from incumbent insurer, continuity of ongoing hospitalization/claims."
+      },
+      {
+        "name": "Implementation Resources",
+        "category": "CONTRACT & IMPLEMENTATION",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Dedicated onboarding project manager, transition team, user training resources."
+      },
+      {
+        "name": "Contractual Obligations",
+        "category": "CONTRACT & IMPLEMENTATION",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Indemnification clauses, limitation of liability, intellectual property protection."
+      },
+      {
+        "name": "Performance Guarantees",
+        "category": "CONTRACT & IMPLEMENTATION",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Financial or service commitments backed by bank guarantee or fee at risk."
+      },
+      {
+        "name": "SLA Commitments",
+        "category": "CONTRACT & IMPLEMENTATION",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Legally binding SLA scorecards, quarterly service reviews, dispute procedures."
+      },
+      {
+        "name": "Market Position",
+        "category": "COMPETITIVE POSITION",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Market share ranking, industry reputation, brand equity in commercial segment."
+      },
+      {
+        "name": "Product Differentiation",
+        "category": "COMPETITIVE POSITION",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Unique coverage riders, specialized loss control services, proprietary wellness apps."
+      },
+      {
+        "name": "Pricing Position",
+        "category": "COMPETITIVE POSITION",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Premium rate competitiveness vs market median across commercial classes."
+      },
+      {
+        "name": "Service Differentiation",
+        "category": "COMPETITIVE POSITION",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Speed of claims, VIP dedicated executive, executive concierge, customer Net Promoter Score."
+      },
+      {
+        "name": "Relevant Market Experience",
+        "category": "COMPETITIVE POSITION",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Reputation and successful claims record for corporate accounts in relevant sector."
+      },
+      {
+        "name": "Competitive Position",
+        "category": "COMPETITIVE POSITION",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Overall competitive standing in tender evaluations against primary peer insurers."
+      },
+      {
+        "name": "Win Probability",
+        "category": "COMPETITIVE POSITION",
+        "source": "Master Checklist",
+        "recommendation": "Optional",
+        "checked": false,
+        "description": "Probability of tender win based on historical RFP conversion, fit, and capacity."
+      }
+    ],
+    "dynamic_parameters": [
+      {
+        "name": "Multilingual Member Support",
+        "category": "DYNAMIC & PROPOSAL-SPECIFIC",
+        "source": "Proposal-derived",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "Insurer must provide multi-lingual 24x7 member helpline supporting regional languages.",
+        "proposal_requirement": "Multilingual Member Support: 24x7 member helpline supporting English, Hindi, Tamil, Telugu, and Marathi",
+        "proposal_evidence": "Multilingual Member Support: 24x7 member helpline supporting English, Hindi, Tamil, Telugu, and Marathi"
+      },
+      {
+        "name": "Payroll System Integration",
+        "category": "DYNAMIC & PROPOSAL-SPECIFIC",
+        "source": "Proposal-derived",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "Direct automated integration with enterprise HRMS & payroll for monthly employee census ingestion.",
+        "proposal_requirement": "System Integration: REST API integration with enterprise HRMS (Workday and Darwinbox)",
+        "proposal_evidence": "System Integration: REST API integration with enterprise HRMS (Workday and Darwinbox)"
+      },
+      {
+        "name": "Dedicated On-Site Claims Executive",
+        "category": "DYNAMIC & PROPOSAL-SPECIFIC",
+        "source": "Proposal-derived",
+        "recommendation": "Recommended",
+        "checked": true,
+        "description": "Dedicated full-time claims executive stationed on-site at enterprise headquarters.",
+        "proposal_requirement": "Dedicated Claims Desk: Dedicated on-site or virtual enterprise account manager",
+        "proposal_evidence": "Dedicated Claims Desk: Dedicated on-site or virtual enterprise account manager"
+      }
+    ],
+    "categorized_checklist": {
+      "COVERAGE & PRODUCT": [
+        {
+          "name": "Insurance Product / Line of Business",
+          "category": "COVERAGE & PRODUCT",
+          "source": "Master Checklist",
+          "recommendation": "Recommended",
+          "checked": true,
+          "description": "Line of business, insurance product type, or policy form required by the RFP."
+        },
+        {
+          "name": "Coverage Scope",
+          "category": "COVERAGE & PRODUCT",
+          "source": "Master Checklist",
+          "recommendation": "Recommended",
+          "checked": true,
+          "description": "Detailed scope of coverage, covered perils, insured events, and inclusions."
+        },
+        {
+          "name": "Coverage Limits",
+          "category": "COVERAGE & PRODUCT",
+          "source": "Master Checklist",
+          "recommendation": "Recommended",
+          "checked": true,
+          "description": "Policy limits, aggregate sums insured, and primary indemnity thresholds."
+        },
+        {
+          "name": "Sublimits",
+          "category": "COVERAGE & PRODUCT",
+          "source": "Master Checklist",
+          "recommendation": "Recommended",
+          "checked": true,
+          "description": "Specific coverage sub-limits, inner limits per event, disease, or asset item."
+        },
+        {
+          "name": "Deductibles & Retentions",
+          "category": "COVERAGE & PRODUCT",
+          "source": "Master Checklist",
+          "recommendation": "Recommended",
+          "checked": true,
+          "description": "Self-insured retentions (SIR), mandatory deductibles, and co-pay percentages."
+        },
+        {
+          "name": "Exclusions",
+          "category": "COVERAGE & PRODUCT",
+          "source": "Master Checklist",
+          "recommendation": "Recommended",
+          "checked": true,
+          "description": "Standard and specialized policy exclusions, war/cyber exclusions, unstated conditions."
+        },
+        {
+          "name": "Endorsements",
+          "category": "COVERAGE & PRODUCT",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Custom endorsements, policy extensions, and rider attachments required by proposal."
+        },
+        {
+          "name": "Benefit Structure",
+          "category": "COVERAGE & PRODUCT",
+          "source": "Master Checklist",
+          "recommendation": "Recommended",
+          "checked": true,
+          "description": "Employee benefit design, tiering, wellness allowances, family floater options."
+        },
+        {
+          "name": "Geographic Coverage",
+          "category": "COVERAGE & PRODUCT",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Territorial limits, worldwide vs domestic coverage, overseas emergency assistance."
+        }
+      ],
+      "PRICING & COMMERCIAL": [
+        {
+          "name": "Premium & Pricing Structure",
+          "category": "PRICING & COMMERCIAL",
+          "source": "Master Checklist",
+          "recommendation": "Recommended",
+          "checked": true,
+          "description": "Gross annual premium, rate per thousand/mille, and premium calculation basis."
+        },
+        {
+          "name": "Rates",
+          "category": "PRICING & COMMERCIAL",
+          "source": "Master Checklist",
+          "recommendation": "Recommended",
+          "checked": true,
+          "description": "Burn cost, mortality/morbidity rate table, actuarial pricing per category."
+        },
+        {
+          "name": "Fees & Commissions",
+          "category": "PRICING & COMMERCIAL",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Brokerage commission, TPA administration charges, and policy issuance fees."
+        },
+        {
+          "name": "Payment Terms",
+          "category": "PRICING & COMMERCIAL",
+          "source": "Master Checklist",
+          "recommendation": "Recommended",
+          "checked": true,
+          "description": "Installment schedule (annual, semi-annual, quarterly), grace periods, premium financing."
+        },
+        {
+          "name": "Pricing Competitiveness",
+          "category": "PRICING & COMMERCIAL",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Price positioning against peer insurers, combined ratio margins, discount tolerance."
+        },
+        {
+          "name": "Financial / Commercial Terms",
+          "category": "PRICING & COMMERCIAL",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Profit sharing, low-claim bonus, rollover credits, and retrospective rating."
+        }
+      ],
+      "UNDERWRITING & RISK": [
+        {
+          "name": "Underwriting Requirements",
+          "category": "UNDERWRITING & RISK",
+          "source": "Master Checklist",
+          "recommendation": "Recommended",
+          "checked": true,
+          "description": "Underwriting guidelines, declaration criteria, tele-medical thresholds, warranties."
+        },
+        {
+          "name": "Risk Appetite",
+          "category": "UNDERWRITING & RISK",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Insurer target industries, hazardous risk tolerance, high-limit appetite."
+        },
+        {
+          "name": "Risk Exposure",
+          "category": "UNDERWRITING & RISK",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Concentration of risk, aggregate exposure per location, single-life limits."
+        },
+        {
+          "name": "Risk Selection",
+          "category": "UNDERWRITING & RISK",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Underwriting selectivity, decline rates, substandard life loading policies."
+        },
+        {
+          "name": "Loss History / Claims Experience",
+          "category": "UNDERWRITING & RISK",
+          "source": "Master Checklist",
+          "recommendation": "Recommended",
+          "checked": true,
+          "description": "Historical loss ratio thresholds, burned cost adjustments, group claim history evaluation."
+        },
+        {
+          "name": "Catastrophe Exposure",
+          "category": "UNDERWRITING & RISK",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Natural catastrophe (NatCat), earthquake, pandemic, and terror exposure limits."
+        },
+        {
+          "name": "Risk Mitigation",
+          "category": "UNDERWRITING & RISK",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Loss control advisory, risk engineering surveys, proactive risk management."
+        },
+        {
+          "name": "Loss Control",
+          "category": "UNDERWRITING & RISK",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Workplace safety audits, fire protection guidelines, cyber posture assessment."
+        }
+      ],
+      "CLAIMS & SERVICE": [
+        {
+          "name": "Claims Handling",
+          "category": "CLAIMS & SERVICE",
+          "source": "Master Checklist",
+          "recommendation": "Recommended",
+          "checked": true,
+          "description": "In-house claims management vs TPA, dedicated claims executive, paperless filing."
+        },
+        {
+          "name": "Claims Settlement",
+          "category": "CLAIMS & SERVICE",
+          "source": "Master Checklist",
+          "recommendation": "Recommended",
+          "checked": true,
+          "description": "Statutory claim settlement ratio, average turnaround time (TAT), repudiation rate."
+        },
+        {
+          "name": "Claims SLA",
+          "category": "CLAIMS & SERVICE",
+          "source": "Master Checklist",
+          "recommendation": "Recommended",
+          "checked": true,
+          "description": "Service level agreement: 24/48-hr intimation, cashless approval time, disbursement TAT."
+        },
+        {
+          "name": "Policy Administration",
+          "category": "CLAIMS & SERVICE",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Mid-term member addition/deletion processing, endorsement issuance timelines."
+        },
+        {
+          "name": "Customer Service",
+          "category": "CLAIMS & SERVICE",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "24x7 helpdesk, dedicated account relationship manager, multi-channel support."
+        },
+        {
+          "name": "Complaint Handling",
+          "category": "CLAIMS & SERVICE",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Grievance redressal mechanism, IRDAI Bima Bharosa compliance, dispute escalation."
+        },
+        {
+          "name": "Service-Level Agreements",
+          "category": "CLAIMS & SERVICE",
+          "source": "Master Checklist",
+          "recommendation": "Recommended",
+          "checked": true,
+          "description": "Enforceable SLA metrics, financial penalties for delayed claim settlement."
+        },
+        {
+          "name": "Reporting / Performance",
+          "category": "CLAIMS & SERVICE",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Monthly claims MIS, utilization analytics, loss ratio reporting, executive dashboard."
+        }
+      ],
+      "INSURER CAPABILITY": [
+        {
+          "name": "Product Capability",
+          "category": "INSURER CAPABILITY",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Demonstrated technical underwriting capacity and portfolio maturity in requested line."
+        },
+        {
+          "name": "Industry Experience",
+          "category": "INSURER CAPABILITY",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Years of experience underwriting commercial accounts in the client's industry sector."
+        },
+        {
+          "name": "Similar Account Experience",
+          "category": "INSURER CAPABILITY",
+          "source": "Master Checklist",
+          "recommendation": "Recommended",
+          "checked": true,
+          "description": "Proven track record managing insurance portfolios of similar size, lives, or asset scale."
+        },
+        {
+          "name": "Geographic Capability",
+          "category": "INSURER CAPABILITY",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Pan-country branch network, hospital/garage cashless network coverage across regions."
+        },
+        {
+          "name": "Distribution Capability",
+          "category": "INSURER CAPABILITY",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Institutional broker relationships, corporate agents, direct enterprise distribution."
+        },
+        {
+          "name": "Underwriting Capacity",
+          "category": "INSURER CAPABILITY",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Maximum net line retention per risk, automatic treaty capacity, syndication capability."
+        },
+        {
+          "name": "Claims Infrastructure",
+          "category": "INSURER CAPABILITY",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Specialized in-house medical doctors, survey engineers, fraud investigation unit."
+        },
+        {
+          "name": "Operational Capacity",
+          "category": "INSURER CAPABILITY",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Back-office scalability, enterprise headcount, processing volume capabilities."
+        }
+      ],
+      "FINANCIAL STRENGTH": [
+        {
+          "name": "Financial Strength",
+          "category": "FINANCIAL STRENGTH",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Gross Written Premium (GWP), asset base, shareholder equity, and financial scale."
+        },
+        {
+          "name": "Credit Rating",
+          "category": "FINANCIAL STRENGTH",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Independent insurer financial strength ratings (AM Best, S&P, CRISIL, ICRA, CARE)."
+        },
+        {
+          "name": "Capital Adequacy",
+          "category": "FINANCIAL STRENGTH",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Regulatory capital buffer, paid-up capital, free reserves, solvency margin."
+        },
+        {
+          "name": "Solvency",
+          "category": "FINANCIAL STRENGTH",
+          "source": "Master Checklist",
+          "recommendation": "Recommended",
+          "checked": true,
+          "description": "Statutory Solvency Margin Ratio vs regulatory benchmark (e.g. IRDAI 1.50x min)."
+        },
+        {
+          "name": "Balance Sheet Strength",
+          "category": "FINANCIAL STRENGTH",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Assets under management (AUM), technical reserves, liquidity, investment yield."
+        },
+        {
+          "name": "Reinsurance Support",
+          "category": "FINANCIAL STRENGTH",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Financial strength of backing reinsurers (Swiss Re, Munich Re, GIC Re) on treaty panel."
+        },
+        {
+          "name": "Financial Stability",
+          "category": "FINANCIAL STRENGTH",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Long-term profitability trends, combined ratio persistency, return on equity."
+        }
+      ],
+      "REINSURANCE": [
+        {
+          "name": "Reinsurance Capacity",
+          "category": "REINSURANCE",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Automatic treaty capacity per cession, surplus limits, retrocession protections."
+        },
+        {
+          "name": "Treaty Capability",
+          "category": "REINSURANCE",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Proportional (Quota Share) and Non-Proportional (XOL) treaty management."
+        },
+        {
+          "name": "Facultative Capability",
+          "category": "REINSURANCE",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Capacity to arrange facultative reinsurance placements for mega-risks."
+        },
+        {
+          "name": "Quota Share",
+          "category": "REINSURANCE",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Proportional treaty terms, ceding commission rates, and portfolio sharing."
+        },
+        {
+          "name": "Excess of Loss",
+          "category": "REINSURANCE",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Non-proportional risk and event excess of loss layers, attachment points."
+        },
+        {
+          "name": "Stop Loss",
+          "category": "REINSURANCE",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Aggregate stop-loss protection for self-funded or enterprise group health plans."
+        },
+        {
+          "name": "Catastrophe Capacity",
+          "category": "REINSURANCE",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Catastrophe reinsurance treaty coverage, multi-event reinstatement terms."
+        },
+        {
+          "name": "Retrocession",
+          "category": "REINSURANCE",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Retrocessionaire protections and international risk transfer capacity."
+        }
+      ],
+      "TECHNOLOGY & DIGITAL": [
+        {
+          "name": "Digital Enrollment",
+          "category": "TECHNOLOGY & DIGITAL",
+          "source": "Master Checklist",
+          "recommendation": "Recommended",
+          "checked": true,
+          "description": "Self-service web/mobile portal for employee on-boarding, e-cards, and nomination."
+        },
+        {
+          "name": "Digital Policy Administration",
+          "category": "TECHNOLOGY & DIGITAL",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Automated underwriting engine, digital endorsements, instant policy schedule generation."
+        },
+        {
+          "name": "Digital Claims",
+          "category": "TECHNOLOGY & DIGITAL",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Mobile claim intimation, OCR document scanning, AI cashless auto-adjudication."
+        },
+        {
+          "name": "Customer Portal",
+          "category": "TECHNOLOGY & DIGITAL",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Enterprise HR admin dashboard and member mobile app capabilities."
+        },
+        {
+          "name": "API / System Integration",
+          "category": "TECHNOLOGY & DIGITAL",
+          "source": "Master Checklist",
+          "recommendation": "Recommended",
+          "checked": true,
+          "description": "REST APIs for HRMS, ERP, payroll integration (e.g. Workday, Darwinbox, SAP)."
+        },
+        {
+          "name": "Data Integration",
+          "category": "TECHNOLOGY & DIGITAL",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Secure SFTP data feeds, automated member reconciliation, batch data sync."
+        },
+        {
+          "name": "Automation",
+          "category": "TECHNOLOGY & DIGITAL",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Straight-through processing (STP) rate for standard renewals and claims."
+        },
+        {
+          "name": "Cybersecurity",
+          "category": "TECHNOLOGY & DIGITAL",
+          "source": "Master Checklist",
+          "recommendation": "Recommended",
+          "checked": true,
+          "description": "SOC 2 Type II, ISO 27001 certification, vulnerability management, penetration audits."
+        },
+        {
+          "name": "Data Privacy",
+          "category": "TECHNOLOGY & DIGITAL",
+          "source": "Master Checklist",
+          "recommendation": "Recommended",
+          "checked": true,
+          "description": "Compliance with DPDP Act, GDPR, HIPAA, and statutory health data privacy standards."
+        },
+        {
+          "name": "Technology Infrastructure",
+          "category": "TECHNOLOGY & DIGITAL",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Cloud hosting resilience (AWS, Azure), 99.9% uptime SLA, disaster recovery."
+        }
+      ],
+      "REGULATORY & COMPLIANCE": [
+        {
+          "name": "Licensing / Authorization",
+          "category": "REGULATORY & COMPLIANCE",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Valid statutory insurance certificate from primary regulator (IRDAI, PRA, NAIC, FINMA)."
+        },
+        {
+          "name": "Regulatory Compliance",
+          "category": "REGULATORY & COMPLIANCE",
+          "source": "Master Checklist",
+          "recommendation": "Recommended",
+          "checked": true,
+          "description": "Track record of regulatory compliance, absence of sanctions or license suspensions."
+        },
+        {
+          "name": "Solvency Requirements",
+          "category": "REGULATORY & COMPLIANCE",
+          "source": "Master Checklist",
+          "recommendation": "Recommended",
+          "checked": true,
+          "description": "Compliance with statutory capital rules, Solvency II / RBC capital guidelines."
+        },
+        {
+          "name": "Data Protection",
+          "category": "REGULATORY & COMPLIANCE",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Local regulatory data localization mandates, encryption standards."
+        },
+        {
+          "name": "AML / KYC",
+          "category": "REGULATORY & COMPLIANCE",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Anti-money laundering procedures, beneficial ownership verification, sanctions check."
+        },
+        {
+          "name": "Insurance Regulations",
+          "category": "REGULATORY & COMPLIANCE",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Adherence to policyholder protection regulations and commercial filing guidelines."
+        },
+        {
+          "name": "Local Market Requirements",
+          "category": "REGULATORY & COMPLIANCE",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Compliance with jurisdiction-specific mandatory tariffs or statutory cess rules."
+        },
+        {
+          "name": "Contractual Compliance",
+          "category": "REGULATORY & COMPLIANCE",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Ability to execute mandatory standard contract terms without unilateral deviation."
+        },
+        {
+          "name": "Reporting Requirements",
+          "category": "REGULATORY & COMPLIANCE",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Statutory reporting compliance, public disclosures, tax filings, GST certificates."
+        }
+      ],
+      "ELIGIBILITY": [
+        {
+          "name": "Bidder Eligibility",
+          "category": "ELIGIBILITY",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Compliance with mandatory bidder qualifications, registered corporate status, no blacklisting."
+        },
+        {
+          "name": "Minimum Experience",
+          "category": "ELIGIBILITY",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Required minimum operational track record (e.g. 5+ or 10+ years in commercial insurance)."
+        },
+        {
+          "name": "Minimum Financial Requirements",
+          "category": "ELIGIBILITY",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Minimum net worth, statutory paid-up capital, or annual revenue threshold required by RFP."
+        },
+        {
+          "name": "Required Certifications",
+          "category": "ELIGIBILITY",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "ISO 9001 (Quality), ISO 27001 (Security), CMMI, or industry accreditations."
+        },
+        {
+          "name": "Required Licenses",
+          "category": "ELIGIBILITY",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Specific line-of-business underwriting licenses applicable to the RFP scope."
+        },
+        {
+          "name": "Geographic Eligibility",
+          "category": "ELIGIBILITY",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Legal authority and operational presence in all required delivery locations."
+        },
+        {
+          "name": "Similar Contract Experience",
+          "category": "ELIGIBILITY",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Documented performance on minimum number of accounts with comparable employee count."
+        },
+        {
+          "name": "Mandatory Qualifications",
+          "category": "ELIGIBILITY",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Non-negotiable qualification gates stated in the proposal document."
+        }
+      ],
+      "CONTRACT & IMPLEMENTATION": [
+        {
+          "name": "Policy Term",
+          "category": "CONTRACT & IMPLEMENTATION",
+          "source": "Master Checklist",
+          "recommendation": "Recommended",
+          "checked": true,
+          "description": "Policy inception, expiration, multi-year lock-in terms, or short-period provisions."
+        },
+        {
+          "name": "Renewal Terms",
+          "category": "CONTRACT & IMPLEMENTATION",
+          "source": "Master Checklist",
+          "recommendation": "Recommended",
+          "checked": true,
+          "description": "Guaranteed renewal conditions, loss-ratio tied rate adjustments, advance notice periods."
+        },
+        {
+          "name": "Cancellation Terms",
+          "category": "CONTRACT & IMPLEMENTATION",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Pro-rata vs short-period refund rules, termination for convenience notice windows."
+        },
+        {
+          "name": "Implementation Timeline",
+          "category": "CONTRACT & IMPLEMENTATION",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Target go-live timeline, enrollment launch, policy schedule delivery schedule."
+        },
+        {
+          "name": "Transition Requirements",
+          "category": "CONTRACT & IMPLEMENTATION",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Seamless transition from incumbent insurer, continuity of ongoing hospitalization/claims."
+        },
+        {
+          "name": "Implementation Resources",
+          "category": "CONTRACT & IMPLEMENTATION",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Dedicated onboarding project manager, transition team, user training resources."
+        },
+        {
+          "name": "Contractual Obligations",
+          "category": "CONTRACT & IMPLEMENTATION",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Indemnification clauses, limitation of liability, intellectual property protection."
+        },
+        {
+          "name": "Performance Guarantees",
+          "category": "CONTRACT & IMPLEMENTATION",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Financial or service commitments backed by bank guarantee or fee at risk."
+        },
+        {
+          "name": "SLA Commitments",
+          "category": "CONTRACT & IMPLEMENTATION",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Legally binding SLA scorecards, quarterly service reviews, dispute procedures."
+        }
+      ],
+      "COMPETITIVE POSITION": [
+        {
+          "name": "Market Position",
+          "category": "COMPETITIVE POSITION",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Market share ranking, industry reputation, brand equity in commercial segment."
+        },
+        {
+          "name": "Product Differentiation",
+          "category": "COMPETITIVE POSITION",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Unique coverage riders, specialized loss control services, proprietary wellness apps."
+        },
+        {
+          "name": "Pricing Position",
+          "category": "COMPETITIVE POSITION",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Premium rate competitiveness vs market median across commercial classes."
+        },
+        {
+          "name": "Service Differentiation",
+          "category": "COMPETITIVE POSITION",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Speed of claims, VIP dedicated executive, executive concierge, customer Net Promoter Score."
+        },
+        {
+          "name": "Relevant Market Experience",
+          "category": "COMPETITIVE POSITION",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Reputation and successful claims record for corporate accounts in relevant sector."
+        },
+        {
+          "name": "Competitive Position",
+          "category": "COMPETITIVE POSITION",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Overall competitive standing in tender evaluations against primary peer insurers."
+        },
+        {
+          "name": "Win Probability",
+          "category": "COMPETITIVE POSITION",
+          "source": "Master Checklist",
+          "recommendation": "Optional",
+          "checked": false,
+          "description": "Probability of tender win based on historical RFP conversion, fit, and capacity."
+        }
+      ]
+    },
+    "counts": {
+      "total_master_parameters": 97,
+      "recommended_count": 26,
+      "dynamic_count": 3,
+      "other_count": 71
+    }
+  },
+  "processed_at": "2026-09-08T12:20:49.598546"
+}

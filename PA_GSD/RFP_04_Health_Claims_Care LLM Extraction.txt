@@ -1,0 +1,229 @@
+RFP_04_Health_Claims_Care_Management
+
+{
+  "proposal_id": "RFP-INS-HEALTH-004",
+  "proposal_title": "Health Insurance Claims & Care Management Modernization",
+  "domain": "Health Insurance",
+  "summary": "Multi-line insurance organization seeking technology providers to modernize health claims intake, automated adjudication, member/provider digital experiences, and fraud/waste/abuse (FWA) care management.",
+  "insurance_products": [
+    "Health Insurance",
+    "Group Mediclaim / Healthcare"
+  ],
+  "business_objectives": [
+    "Improve health claims adjudication efficiency and accuracy",
+    "Support member/provider digital interactions",
+    "Enable utilization, care and claims analytics",
+    "Reduce leakage and administrative effort"
+  ],
+  "functional_requirements": [
+    "Digital health claims intake and document processing",
+    "Claims validation, adjudication rules and exception management",
+    "Provider and member portals",
+    "Fraud, waste and abuse (FWA) analytics",
+    "Utilization and care-management workflows"
+  ],
+  "technology_requirements": [
+    "API-based integration with relevant enterprise systems",
+    "Scalable cloud, hybrid or on-premises deployment options",
+    "Support configurable business rules and workflows"
+  ],
+  "ai_ml_requirements": [
+    "Explainable AI/analytics recommendations with human oversight",
+    "Fraud, waste and abuse analytics",
+    "Care and utilization predictive analytics"
+  ],
+  "data_requirements": [
+    "Policy, provider, payment, CRM and data integration",
+    "Operational, financial and care analytics",
+    "Maintain audit trails for source data, recommendations, and decisions"
+  ],
+  "security_requirements": [
+    "Role-based access control, encryption and comprehensive audit logging",
+    "Data retention, deletion, masking and access controls",
+    "Business continuity and disaster recovery"
+  ],
+  "regulatory_requirements": [
+    "Support applicable insurance, privacy, cybersecurity and AI/model-governance requirements"
+  ],
+  "implementation_requirements": [
+    "Discovery and current-state assessment",
+    "Configuration, customization, migration and UAT",
+    "Pilot followed by controlled production rollout",
+    "Training, knowledge transfer and post-go-live support"
+  ],
+  "evaluation_weights": [
+    "Claims/Adjudication: 20%",
+    "Health Insurance Fit: 15%",
+    "Fraud/Analytics: 15%",
+    "Digital Member/Provider Experience: 15%",
+    "Data/Integration: 15%",
+    "Security/Privacy: 10%",
+    "Implementation: 5%",
+    "Commercial Value: 5%"
+  ],
+  "timeline": [
+    "Proposal submission: Week 4",
+    "Solution demonstrations: Weeks 7–8",
+    "Target implementation start: Week 12"
+  ]
+}
+
+
+
+
+
+
+
+
+
+Company Scale, Business Growth, Market Position, Financial Strength, Insurance Performance, Operational Scale, Technology Activity, Strategic Activity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+How LLM generates the parameters dynamically
+
+
+{
+  "parameter_evaluations": [
+    {
+      "parameter_id": "claims_relevance",
+      "parameter": "Claims Relevance",
+      "relevance_score": 96,
+      "recommendation": "recommended",
+      "reason": "Claims intake, rules validation, and adjudication efficiency represent the primary core deliverable (20% evaluation weight).",
+      "rfp_evidence": [
+        "Improve health claims adjudication efficiency and accuracy",
+        "Digital health claims intake and document processing"
+      ],
+      "confidence": "High"
+    },
+    {
+      "parameter_id": "insurance_product_alignment",
+      "parameter": "Insurance Product Alignment",
+      "relevance_score": 92,
+      "recommendation": "recommended",
+      "reason": "RFP requires specific health insurance domain capabilities and care management workflows.",
+      "rfp_evidence": [
+        "Health insurance fit (15% weight)",
+        "Health Insurance Claims & Care Management Modernization"
+      ],
+      "confidence": "High"
+    },
+    {
+      "parameter_id": "ai_ml_adoption",
+      "parameter": "AI / ML Adoption",
+      "relevance_score": 88,
+      "recommendation": "recommended",
+      "reason": "The document mandates explainable AI recommendations and ML fraud/waste/abuse detection.",
+      "rfp_evidence": [
+        "Provide explainable AI/analytics recommendations where applicable, with human oversight",
+        "Fraud, waste and abuse analytics"
+      ],
+      "confidence": "High"
+    },
+    {
+      "parameter_id": "digital_transformation",
+      "parameter": "Digital Transformation",
+      "relevance_score": 86,
+      "recommendation": "recommended",
+      "reason": "RFP focuses on digitizing provider and member interactions via self-service portals.",
+      "rfp_evidence": [
+        "Support member/provider digital interactions",
+        "Provider and member portals"
+      ],
+      "confidence": "High"
+    },
+    {
+      "parameter_id": "data_analytics",
+      "parameter": "Data & Analytics",
+      "relevance_score": 84,
+      "recommendation": "recommended",
+      "reason": "Heavy emphasis on multi-source data integration, utilization analytics, and financial reporting.",
+      "rfp_evidence": [
+        "Enable utilization, care and claims analytics",
+        "Policy, provider, payment, CRM and data integration"
+      ],
+      "confidence": "High"
+    },
+    {
+      "parameter_id": "technology_modernization",
+      "parameter": "Technology Modernization",
+      "relevance_score": 82,
+      "recommendation": "recommended",
+      "reason": "Requires API-based enterprise integration and modern cloud/hybrid deployment options.",
+      "rfp_evidence": [
+        "Provide API-based integration with relevant enterprise systems",
+        "Support scalable cloud, hybrid or on-premises deployment options"
+      ],
+      "confidence": "High"
+    },
+    {
+      "parameter_id": "implementation_fit",
+      "parameter": "Implementation Fit",
+      "relevance_score": 78,
+      "recommendation": "recommended",
+      "reason": "Requires proven delivery methodology across discovery, UAT, pilot, and 12-week rollout schedule.",
+      "rfp_evidence": [
+        "Pilot followed by controlled production rollout",
+        "Target implementation start — Week 12"
+      ],
+      "confidence": "High"
+    },
+    {
+      "parameter_id": "regulatory_compliance",
+      "parameter": "Regulatory / Compliance Fit",
+      "relevance_score": 75,
+      "recommendation": "recommended",
+      "reason": "Mandates strict insurance data privacy, audit logging, and AI model governance standards.",
+      "rfp_evidence": [
+        "Support applicable insurance, privacy, cybersecurity and AI/model-governance requirements"
+      ],
+      "confidence": "High"
+    },
+    {
+      "parameter_id": "underwriting_relevance",
+      "parameter": "Underwriting Relevance",
+      "relevance_score": 25,
+      "recommendation": "not_recommended",
+      "reason": "The RFP is strictly focused on post-issuance claims adjudication and care management, with no underwriting scope.",
+      "rfp_evidence": [],
+      "confidence": "High"
+    },
+    {
+      "parameter_id": "financial_capacity",
+      "parameter": "Financial Capacity",
+      "relevance_score": 35,
+      "recommendation": "not_recommended",
+      "reason": "The evaluation criteria prioritize technical execution and software architecture over carrier balance sheet capitalization.",
+      "rfp_evidence": [],
+      "confidence": "Medium"
+    },
+    {
+      "parameter_id": "growth_expansion",
+      "parameter": "Growth / Expansion",
+      "relevance_score": 20,
+      "recommendation": "not_recommended",
+      "reason": "RFP does not cite market expansion, gross written premium growth, or new geographic entry.",
+      "rfp_evidence": [],
+      "confidence": "High"
+    }
+  ]
+}

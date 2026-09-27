@@ -1,0 +1,173 @@
+To optimize the Proposal-Based Analysis so that each parameter delivers accurate, self-contained, and comprehensive intelligence, there are 5 critical places in the pipeline to optimize:
+
+Mermaid diagram
+1. Context Slicing: Pass Parameter-Specific RFP Clauses Instead of Generic Text
+🔴 Current Bottleneck:
+In 
+proposal_analysis_service.py:L164-L165
+, every parameter is evaluated against the first 5 generic proposal requirements:
+
+python
+
+
+# CURRENT:
+reqs_text = "\n".join([f"- {r}" for r in proposal_profile.get("requirements", [])[:5]])
+objs_text = "\n".join([f"- {o}" for o in proposal_profile.get("objectives", [])[:3]])
+If evaluating "Claims SLA", the LLM receives generic requirements like "Company must be ISO certified" rather than the actual Claims SLAs from the RFP.
+
+🟢 Optimization:
+Filter the RFP clauses dynamically so the LLM receives only the clauses that belong to that parameter:
+
+python
+
+
+# OPTIMIZED:
+parameter_specific_rfp_clauses = [
+    req for req in proposal_profile.get("functional_requirements", [])
+    if any(keyword in req.lower() for keyword in param_meta["keywords"])
+]
+Result: The LLM evaluates the prospect directly against the exact proposal requirements for that specific domain.
+2. Execution Level: Batch Parameter Evaluation in 1 Unified LLM Call
+🔴 Current Bottleneck:
+In 
+proposal_analysis_service.py:L334-L341
+, the system loops over 
+N
+N parameters and makes 
+N
+N separate sequential Gemini LLM calls: 
+Latency
+=
+6
+ parameters
+×
+3.5
+ seconds
+=
+21
+ to 
+25
+ seconds total wait time
+Latency=6 parameters×3.5 seconds=21 to 25 seconds total wait time
+
+🟢 Optimization:
+Batch all 
+N
+N selected parameters into one single structured JSON evaluation prompt:
+
+python
+
+
+# OPTIMIZED: Single Prompt evaluating all selected parameters at once
+prompt = f"""You are a senior commercial insurance underwriting analyst.
+Evaluate the prospect '{prospect_name}' against the RFP requirements across ALL of the following {len(selected_params)} parameters:
+{all_parameters_and_tagged_evidence_block}
+Return a JSON object containing a dictionary of evaluations keyed by parameter_id:
+{{
+  "parameter_evaluations": {{
+    "<parameter_id>": {{
+      "fit_level": "High | Medium | Low",
+      "compliance_status": "Full Compliance | Partial Compliance | Non-Compliant",
+      "summary": "2-3 sentence factual assessment...",
+      "prospect_evidence_facts": ["Exact metric 1", "Exact metric 2"],
+      "specific_gaps": ["Missing SLA warranty..."],
+      "recommended_action": "Actionable step for discovery..."
+    }}
+  }}
+}}
+"""
+Result: Latency drops from 25s 
+→
+→ 3.5s, and LLM API calls drop from 
+N
++
+2
+→
+2
+N+2→2.
+3. Output Schema: Add Line-Item Compliance & Producer Action Steps
+🔴 Current Parameter Output:
+Currently in 
+proposal_analysis_service.py:L291-L304
+, each parameter only returns:
+
+json
+
+
+{
+  "fit_level": "High",
+  "confidence": "High",
+  "summary": "...",
+  "reasoning": "...",
+  "gaps": ["..."]
+}
+🟢 Optimized Parameter Schema:
+Upgrade each parameter to provide 5 concrete intelligence layers:
+
+json
+
+
+{
+  "parameter_id": "claims_relevance",
+  "parameter_name": "Claims Relevance & SLAs",
+  "category": "Operational & Service",
+  "fit_level": "High",
+  "confidence": "High",
+  "compliance_status": "Full Compliance",
+  
+  "executive_finding": "SBI Life demonstrates strong alignment with RFP claims settlement turnaround benchmarks, maintaining an audited 98.2% settlement ratio within 7 business days.",
+  
+  "verified_capabilities": [
+    "Audited Claims Settlement Ratio: 98.2% in FY24 (IRDAI Annual Report)",
+    "Digital e-claims portal supporting API intimation and real-time tracking",
+    "Dedicated corporate claims relationship manager allocated for enterprise accounts"
+  ],
+  
+  "rfp_line_item_matching": [
+    {
+      "rfp_requirement": "Death claim payout within 7 business days",
+      "prospect_capability": "Standard SLA commits to 7-day turnaround for undisputed claims",
+      "alignment": "Full Fit"
+    },
+    {
+      "rfp_requirement": "REST API integration for HRMS claim intimation",
+      "prospect_capability": "Open API suite verified in tech stack disclosures",
+      "alignment": "Full Fit"
+    }
+  ],
+  
+  "identified_gaps_and_unknowns": [
+    "Public filings do not confirm whether 1% monthly penalty clause for delayed payouts is accepted without endorsement."
+  ],
+  
+  "producer_discovery_action": "Request underwriting desk endorsement on the 1% penalty waiver during technical negotiation.",
+  
+  "sources": [
+    {
+      "name": "IRDAI Annual Public Disclosure FY24",
+      "url": "https://irdai.gov.in/filings/sbi_life_claims",
+      "evidence_snippet": "Claims settlement ratio stood at 98.2% across group lines."
+    }
+  ]
+}
+
+
+5. Research Layer: Group Related Parameters into Shared Queries
+🔴 Current Bottleneck:
+If a user selects "Claims Management", "Claims Settlement Ratio", and "Digital Claims Intake", the research router runs 3 separate search passes (6 queries total) for essentially the same topic.
+
+🟢 Optimization:
+Use the Source Grouping Engine in 
+proposal_master_checklist.py:group_parameters_by_source
+:
+
+python
+
+
+# Group parameters sharing the same data source (e.g. 'claims_ops')
+grouped_parameters = {
+    "claims_operations": ["Claims Management", "Claims Settlement Ratio", "Digital Claims Intake"],
+    "financial_strength": ["Solvency Ratio", "Underwriting Profit", "Credit Rating"]
+}
+Run 1 high-yield query per group instead of 1 query per parameter.
+Result: Reduces Tavily/Serper search calls by 40–50% while providing more cross-referenced evidence to the LLM.

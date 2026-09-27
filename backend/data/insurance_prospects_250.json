@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "INS-0001",
+    "name": "Allianz"
+  },
+  {
+    "id": "INS-0002",
+    "name": "AXA"
+  },
+  {
+    "id": "INS-0003",
+    "name": "Zurich Insurance Group"
+  },
+  {
+    "id": "INS-0004",
+    "name": "AIG"
+  },
+  {
+    "id": "INS-0005",
+    "name": "MetLife"
+  },
+  {
+    "id": "INS-0006",
+    "name": "Prudential plc"
+  },
+  {
+    "id": "INS-0007",
+    "name": "Prudential Financial"
+  },
+  {
+    "id": "INS-0008",
+    "name": "Chubb"
+  },
+  {
+    "id": "INS-0009",
+    "name": "Generali"
+  },
+  {
+    "id": "INS-0010",
+    "name": "Munich Re"
+  },
+  {
+    "id": "INS-0011",
+    "name": "Swiss Re"
+  },
+  {
+    "id": "INS-0012",
+    "name": "Hannover Re"
+  },
+  {
+    "id": "INS-0013",
+    "name": "SCOR"
+  },
+  {
+    "id": "INS-0014",
+    "name": "Berkshire Hathaway"
+  },
+  {
+    "id": "INS-0015",
+    "name": "Manulife"
+  },
+  {
+    "id": "INS-0016",
+    "name": "Sun Life Financial"
+  },
+  {
+    "id": "INS-0017",
+    "name": "AIA Group"
+  },
+  {
+    "id": "INS-0018",
+    "name": "Ping An Insurance"
+  },
+  {
+    "id": "INS-0019",
+    "name": "China Life Insurance"
+  },
+  {
+    "id": "INS-0020",
+    "name": "China Pacific Insurance"
+  },
+  {
+    "id": "INS-0021",
+    "name": "Tokio Marine"
+  },
+  {
+    "id": "INS-0022",
+    "name": "Sompo Holdings"
+  },
+  {
+    "id": "INS-0023",
+    "name": "MS&AD Insurance Group"
+  },
+  {
+    "id": "INS-0024",
+    "name": "Dai-ichi Life Holdings"
+  },
+  {
+    "id": "INS-0025",
+    "name": "Nippon Life"
+  },
+  {
+    "id": "INS-0026",
+    "name": "Meiji Yasuda Life"
+  },
+  {
+    "id": "INS-0027",
+    "name": "T&D Holdings"
+  },
+  {
+    "id": "INS-0028",
+    "name": "FWD Group"
+  },
+  {
+    "id": "INS-0029",
+    "name": "QBE Insurance Group"
+  },
+  {
+    "id": "INS-0030",
+    "name": "Suncorp Group"
+  },
+  {
+    "id": "INS-0031",
+    "name": "Insurance Australia Group"
+  },
+  {
+    "id": "INS-0032",
+    "name": "Medibank"
+  },
+  {
+    "id": "INS-0033",
+    "name": "ASR Nederland"
+  },
+  {
+    "id": "INS-0034",
+    "name": "NN Group"
+  },
+  {
+    "id": "INS-0035",
+    "name": "Aegon"
+  },
+  {
+    "id": "INS-0036",
+    "name": "Ageas"
+  },
+  {
+    "id": "INS-0037",
+    "name": "Aviva"
+  },
+  {
+    "id": "INS-0038",
+    "name": "Legal & General"
+  },
+  {
+    "id": "INS-0039",
+    "name": "M&G"
+  },
+  {
+    "id": "INS-0040",
+    "name": "Phoenix Group"
+  },
+  {
+    "id": "INS-0041",
+    "name": "Hiscox"
+  },
+  {
+    "id": "INS-0042",
+    "name": "Admiral Group"
+  },
+  {
+    "id": "INS-0043",
+    "name": "Direct Line Group"
+  },
+  {
+    "id": "INS-0044",
+    "name": "Beazley"
+  },
+  {
+    "id": "INS-0045",
+    "name": "Lancashire Holdings"
+  },
+  {
+    "id": "INS-0046",
+    "name": "MAPFRE"
+  },
+  {
+    "id": "INS-0047",
+    "name": "CNP Assurances"
+  },
+  {
+    "id": "INS-0048",
+    "name": "BNP Paribas Cardif"
+  },
+  {
+    "id": "INS-0049",
+    "name": "Crédit Agricole Assurances"
+  },
+  {
+    "id": "INS-0050",
+    "name": "Groupama"
+  },
+  {
+    "id": "INS-0051",
+    "name": "COVEA"
+  },
+  {
+    "id": "INS-0052",
+    "name": "Talanx"
+  },
+  {
+    "id": "INS-0053",
+    "name": "HDI"
+  },
+  {
+    "id": "INS-0054",
+    "name": "Vienna Insurance Group"
+  },
+  {
+    "id": "INS-0055",
+    "name": "ERGO Group"
+  },
+  {
+    "id": "INS-0056",
+    "name": "R+V Versicherung"
+  },
+  {
+    "id": "INS-0057",
+    "name": "Baloise"
+  },
+  {
+    "id": "INS-0058",
+    "name": "Helvetia"
+  },
+  {
+    "id": "INS-0059",
+    "name": "Swiss Life"
+  },
+  {
+    "id": "INS-0060",
+    "name": "La Mondiale"
+  },
+  {
+    "id": "INS-0061",
+    "name": "Unipol"
+  },
+  {
+    "id": "INS-0062",
+    "name": "Sampo"
+  },
+  {
+    "id": "INS-0063",
+    "name": "Tryg"
+  },
+  {
+    "id": "INS-0064",
+    "name": "Gjensidige"
+  },
+  {
+    "id": "INS-0065",
+    "name": "Storebrand"
+  },
+  {
+    "id": "INS-0066",
+    "name": "If P&C Insurance"
+  },
+  {
+    "id": "INS-0067",
+    "name": "KBC Insurance"
+  },
+  {
+    "id": "INS-0068",
+    "name": "Ethias"
+  },
+  {
+    "id": "INS-0069",
+    "name": "Belfius Insurance"
+  },
+  {
+    "id": "INS-0070",
+    "name": "DKV"
+  },
+  {
+    "id": "INS-0071",
+    "name": "Mutua Madrileña"
+  },
+  {
+    "id": "INS-0072",
+    "name": "Línea Directa"
+  },
+  {
+    "id": "INS-0073",
+    "name": "Catalana Occidente"
+  },
+  {
+    "id": "INS-0074",
+    "name": "Santalucía"
+  },
+  {
+    "id": "INS-0075",
+    "name": "State Farm"
+  },
+  {
+    "id": "INS-0076",
+    "name": "GEICO"
+  },
+  {
+    "id": "INS-0077",
+    "name": "Progressive"
+  },
+  {
+    "id": "INS-0078",
+    "name": "Allstate"
+  },
+  {
+    "id": "INS-0079",
+    "name": "Liberty Mutual"
+  },
+  {
+    "id": "INS-0080",
+    "name": "Travelers"
+  },
+  {
+    "id": "INS-0081",
+    "name": "USAA"
+  },
+  {
+    "id": "INS-0082",
+    "name": "Nationwide"
+  },
+  {
+    "id": "INS-0083",
+    "name": "Farmers Insurance"
+  },
+  {
+    "id": "INS-0084",
+    "name": "American Family Insurance"
+  },
+  {
+    "id": "INS-0085",
+    "name": "Erie Insurance"
+  },
+  {
+    "id": "INS-0086",
+    "name": "Auto-Owners Insurance"
+  },
+  {
+    "id": "INS-0087",
+    "name": "The Hartford"
+  },
+  {
+    "id": "INS-0088",
+    "name": "Cincinnati Financial"
+  },
+  {
+    "id": "INS-0089",
+    "name": "Aflac"
+  },
+  {
+    "id": "INS-0090",
+    "name": "Principal Financial Group"
+  },
+  {
+    "id": "INS-0091",
+    "name": "Northwestern Mutual"
+  },
+  {
+    "id": "INS-0092",
+    "name": "New York Life"
+  },
+  {
+    "id": "INS-0093",
+    "name": "MassMutual"
+  },
+  {
+    "id": "INS-0094",
+    "name": "Guardian Life"
+  },
+  {
+    "id": "INS-0095",
+    "name": "Lincoln Financial"
+  },
+  {
+    "id": "INS-0096",
+    "name": "Equitable Holdings"
+  },
+  {
+    "id": "INS-0097",
+    "name": "Ameriprise Financial"
+  },
+  {
+    "id": "INS-0098",
+    "name": "Unum"
+  },
+  {
+    "id": "INS-0099",
+    "name": "Centene"
+  },
+  {
+    "id": "INS-0100",
+    "name": "Cigna"
+  },
+  {
+    "id": "INS-0101",
+    "name": "Humana"
+  },
+  {
+    "id": "INS-0102",
+    "name": "Elevance Health"
+  },
+  {
+    "id": "INS-0103",
+    "name": "UnitedHealth Group"
+  },
+  {
+    "id": "INS-0104",
+    "name": "Kaiser Permanente"
+  },
+  {
+    "id": "INS-0105",
+    "name": "Blue Cross Blue Shield"
+  },
+  {
+    "id": "INS-0106",
+    "name": "Oscar Health"
+  },
+  {
+    "id": "INS-0107",
+    "name": "Molina Healthcare"
+  },
+  {
+    "id": "INS-0108",
+    "name": "Globe Life"
+  },
+  {
+    "id": "INS-0109",
+    "name": "Voya Financial"
+  },
+  {
+    "id": "INS-0110",
+    "name": "Markel Group"
+  },
+  {
+    "id": "INS-0111",
+    "name": "W. R. Berkley"
+  },
+  {
+    "id": "INS-0112",
+    "name": "Arch Capital Group"
+  },
+  {
+    "id": "INS-0113",
+    "name": "Life Insurance Corporation of India"
+  },
+  {
+    "id": "INS-0114",
+    "name": "SBI Life Insurance"
+  },
+  {
+    "id": "INS-0115",
+    "name": "HDFC Life"
+  },
+  {
+    "id": "INS-0116",
+    "name": "ICICI Prudential Life Insurance"
+  },
+  {
+    "id": "INS-0117",
+    "name": "Max Life Insurance"
+  },
+  {
+    "id": "INS-0118",
+    "name": "Tata AIA Life Insurance"
+  },
+  {
+    "id": "INS-0119",
+    "name": "Bajaj Allianz Life Insurance"
+  },
+  {
+    "id": "INS-0120",
+    "name": "Kotak Mahindra Life Insurance"
+  },
+  {
+    "id": "INS-0121",
+    "name": "Aditya Birla Sun Life Insurance"
+  },
+  {
+    "id": "INS-0122",
+    "name": "PNB MetLife India Insurance"
+  },
+  {
+    "id": "INS-0123",
+    "name": "IndiaFirst Life Insurance"
+  },
+  {
+    "id": "INS-0124",
+    "name": "Canara HSBC Life Insurance"
+  },
+  {
+    "id": "INS-0125",
+    "name": "Star Union Dai-ichi Life Insurance"
+  },
+  {
+    "id": "INS-0126",
+    "name": "Ageas Federal Life Insurance"
+  },
+  {
+    "id": "INS-0127",
+    "name": "Edelweiss Life Insurance"
+  },
+  {
+    "id": "INS-0128",
+    "name": "Shriram Life Insurance"
+  },
+  {
+    "id": "INS-0129",
+    "name": "Reliance Nippon Life Insurance"
+  },
+  {
+    "id": "INS-0130",
+    "name": "Aviva Life Insurance India"
+  },
+  {
+    "id": "INS-0131",
+    "name": "Future Generali India Life Insurance"
+  },
+  {
+    "id": "INS-0132",
+    "name": "Axis Max Life Insurance"
+  },
+  {
+    "id": "INS-0133",
+    "name": "General Insurance Corporation of India"
+  },
+  {
+    "id": "INS-0134",
+    "name": "New India Assurance"
+  },
+  {
+    "id": "INS-0135",
+    "name": "United India Insurance"
+  },
+  {
+    "id": "INS-0136",
+    "name": "Oriental Insurance"
+  },
+  {
+    "id": "INS-0137",
+    "name": "National Insurance Company"
+  },
+  {
+    "id": "INS-0138",
+    "name": "ICICI Lombard"
+  },
+  {
+    "id": "INS-0139",
+    "name": "Bajaj Allianz General Insurance"
+  },
+  {
+    "id": "INS-0140",
+    "name": "HDFC ERGO"
+  },
+  {
+    "id": "INS-0141",
+    "name": "Tata AIG General Insurance"
+  },
+  {
+    "id": "INS-0142",
+    "name": "Reliance General Insurance"
+  },
+  {
+    "id": "INS-0143",
+    "name": "SBI General Insurance"
+  },
+  {
+    "id": "INS-0144",
+    "name": "Go Digit General Insurance"
+  },
+  {
+    "id": "INS-0145",
+    "name": "ACKO General Insurance"
+  },
+  {
+    "id": "INS-0146",
+    "name": "IFFCO Tokio General Insurance"
+  },
+  {
+    "id": "INS-0147",
+    "name": "Chola MS General Insurance"
+  },
+  {
+    "id": "INS-0148",
+    "name": "Future Generali India Insurance"
+  },
+  {
+    "id": "INS-0149",
+    "name": "Royal Sundaram General Insurance"
+  },
+  {
+    "id": "INS-0150",
+    "name": "Universal Sompo General Insurance"
+  },
+  {
+    "id": "INS-0151",
+    "name": "Liberty General Insurance"
+  },
+  {
+    "id": "INS-0152",
+    "name": "Magma HDI General Insurance"
+  },
+  {
+    "id": "INS-0153",
+    "name": "Navi General Insurance"
+  },
+  {
+    "id": "INS-0154",
+    "name": "Kotak General Insurance"
+  },
+  {
+    "id": "INS-0155",
+    "name": "Zuno General Insurance"
+  },
+  {
+    "id": "INS-0156",
+    "name": "Niva Bupa Health Insurance"
+  },
+  {
+    "id": "INS-0157",
+    "name": "Star Health and Allied Insurance"
+  },
+  {
+    "id": "INS-0158",
+    "name": "Care Health Insurance"
+  },
+  {
+    "id": "INS-0159",
+    "name": "Aditya Birla Health Insurance"
+  },
+  {
+    "id": "INS-0160",
+    "name": "ManipalCigna Health Insurance"
+  },
+  {
+    "id": "INS-0161",
+    "name": "Galaxy Health Insurance"
+  },
+  {
+    "id": "INS-0162",
+    "name": "China Taiping Insurance"
+  },
+  {
+    "id": "INS-0163",
+    "name": "China Reinsurance"
+  },
+  {
+    "id": "INS-0164",
+    "name": "PICC"
+  },
+  {
+    "id": "INS-0165",
+    "name": "People's Insurance Company of China"
+  },
+  {
+    "id": "INS-0166",
+    "name": "China Life Property & Casualty"
+  },
+  {
+    "id": "INS-0167",
+    "name": "Ping An Life"
+  },
+  {
+    "id": "INS-0168",
+    "name": "Ping An Property & Casualty"
+  },
+  {
+    "id": "INS-0169",
+    "name": "China Pacific Life"
+  },
+  {
+    "id": "INS-0170",
+    "name": "China Pacific Property & Casualty"
+  },
+  {
+    "id": "INS-0171",
+    "name": "New China Life Insurance"
+  },
+  {
+    "id": "INS-0172",
+    "name": "China Continent Insurance"
+  },
+  {
+    "id": "INS-0173",
+    "name": "Sunshine Insurance Group"
+  },
+  {
+    "id": "INS-0174",
+    "name": "Huaxia Insurance"
+  },
+  {
+    "id": "INS-0175",
+    "name": "Taikang Insurance Group"
+  },
+  {
+    "id": "INS-0176",
+    "name": "Taikang Life"
+  },
+  {
+    "id": "INS-0177",
+    "name": "Taiping Life"
+  },
+  {
+    "id": "INS-0178",
+    "name": "AIA Hong Kong"
+  },
+  {
+    "id": "INS-0179",
+    "name": "FWD Hong Kong"
+  },
+  {
+    "id": "INS-0180",
+    "name": "Tokio Marine & Nichido Fire Insurance"
+  },
+  {
+    "id": "INS-0181",
+    "name": "Sompo Japan Insurance"
+  },
+  {
+    "id": "INS-0182",
+    "name": "Mitsui Sumitomo Insurance"
+  },
+  {
+    "id": "INS-0183",
+    "name": "Sumitomo Life Insurance"
+  },
+  {
+    "id": "INS-0184",
+    "name": "Taiyo Life Insurance"
+  },
+  {
+    "id": "INS-0185",
+    "name": "Sony Life Insurance"
+  },
+  {
+    "id": "INS-0186",
+    "name": "Japan Post Insurance"
+  },
+  {
+    "id": "INS-0187",
+    "name": "Asahi Life Insurance"
+  },
+  {
+    "id": "INS-0188",
+    "name": "Aioi Nissay Dowa Insurance"
+  },
+  {
+    "id": "INS-0189",
+    "name": "T&D Financial Life"
+  },
+  {
+    "id": "INS-0190",
+    "name": "Rakuten Life Insurance"
+  },
+  {
+    "id": "INS-0191",
+    "name": "SBI Insurance"
+  },
+  {
+    "id": "INS-0192",
+    "name": "Samsung Life Insurance"
+  },
+  {
+    "id": "INS-0193",
+    "name": "Samsung Fire & Marine Insurance"
+  },
+  {
+    "id": "INS-0194",
+    "name": "Hanwha Life Insurance"
+  },
+  {
+    "id": "INS-0195",
+    "name": "DB Insurance"
+  },
+  {
+    "id": "INS-0196",
+    "name": "Hyundai Marine & Fire Insurance"
+  },
+  {
+    "id": "INS-0197",
+    "name": "KB Insurance"
+  },
+  {
+    "id": "INS-0198",
+    "name": "Kyobo Life Insurance"
+  },
+  {
+    "id": "INS-0199",
+    "name": "Meritz Fire & Marine Insurance"
+  },
+  {
+    "id": "INS-0200",
+    "name": "Great Eastern"
+  },
+  {
+    "id": "INS-0201",
+    "name": "NTUC Income"
+  },
+  {
+    "id": "INS-0202",
+    "name": "Etiqa"
+  },
+  {
+    "id": "INS-0203",
+    "name": "Tokio Marine Life Singapore"
+  },
+  {
+    "id": "INS-0204",
+    "name": "Prudential Singapore"
+  },
+  {
+    "id": "INS-0205",
+    "name": "AIA Singapore"
+  },
+  {
+    "id": "INS-0206",
+    "name": "Saudi National Insurance"
+  },
+  {
+    "id": "INS-0207",
+    "name": "Tawuniya"
+  },
+  {
+    "id": "INS-0208",
+    "name": "Bupa Arabia"
+  },
+  {
+    "id": "INS-0209",
+    "name": "Al Rajhi Takaful"
+  },
+  {
+    "id": "INS-0210",
+    "name": "MedGulf"
+  },
+  {
+    "id": "INS-0211",
+    "name": "Gulf Insurance Group"
+  },
+  {
+    "id": "INS-0212",
+    "name": "Qatar Insurance Company"
+  },
+  {
+    "id": "INS-0213",
+    "name": "Doha Insurance"
+  },
+  {
+    "id": "INS-0214",
+    "name": "Abu Dhabi National Insurance"
+  },
+  {
+    "id": "INS-0215",
+    "name": "Oman Insurance"
+  },
+  {
+    "id": "INS-0216",
+    "name": "Orient Insurance"
+  },
+  {
+    "id": "INS-0217",
+    "name": "Sukoon Insurance"
+  },
+  {
+    "id": "INS-0218",
+    "name": "Emirates Insurance"
+  },
+  {
+    "id": "INS-0219",
+    "name": "Abu Dhabi National Takaful"
+  },
+  {
+    "id": "INS-0220",
+    "name": "Al Wathba National Insurance"
+  },
+  {
+    "id": "INS-0221",
+    "name": "Oman Qatar Insurance"
+  },
+  {
+    "id": "INS-0222",
+    "name": "Sanlam"
+  },
+  {
+    "id": "INS-0223",
+    "name": "Old Mutual"
+  },
+  {
+    "id": "INS-0224",
+    "name": "Discovery"
+  },
+  {
+    "id": "INS-0225",
+    "name": "Momentum Metropolitan"
+  },
+  {
+    "id": "INS-0226",
+    "name": "Santam"
+  },
+  {
+    "id": "INS-0227",
+    "name": "Hollard"
+  },
+  {
+    "id": "INS-0228",
+    "name": "OUTsurance"
+  },
+  {
+    "id": "INS-0229",
+    "name": "Liberty Group"
+  },
+  {
+    "id": "INS-0230",
+    "name": "FirstRand Insurance"
+  },
+  {
+    "id": "INS-0231",
+    "name": "Guardrisk"
+  },
+  {
+    "id": "INS-0232",
+    "name": "Britam"
+  },
+  {
+    "id": "INS-0233",
+    "name": "Jubilee Holdings"
+  },
+  {
+    "id": "INS-0234",
+    "name": "ICEA Lion"
+  },
+  {
+    "id": "INS-0235",
+    "name": "Tokio Marine Holdings"
+  },
+  {
+    "id": "INS-0236",
+    "name": "Nippon Life Insurance"
+  },
+  {
+    "id": "INS-0237",
+    "name": "Korea Life Insurance"
+  },
+  {
+    "id": "INS-0238",
+    "name": "Samsung Fire & Marine"
+  },
+  {
+    "id": "INS-0239",
+    "name": "Taiwan Life Insurance"
+  },
+  {
+    "id": "INS-0240",
+    "name": "Hanwha General Insurance"
+  },
+  {
+    "id": "INS-0241",
+    "name": "Cathay Life Insurance"
+  },
+  {
+    "id": "INS-0242",
+    "name": "Bupa"
+  },
+  {
+    "id": "INS-0243",
+    "name": "Fubon Financial"
+  },
+  {
+    "id": "INS-0244",
+    "name": "PICC Group"
+  },
+  {
+    "id": "INS-0245",
+    "name": "Hana Insurance"
+  },
+  {
+    "id": "INS-0246",
+    "name": "Tokio Marine Nichido"
+  },
+  {
+    "id": "INS-0247",
+    "name": "Sun Life"
+  },
+  {
+    "id": "INS-0248",
+    "name": "Great-West Lifeco"
+  },
+  {
+    "id": "INS-0249",
+    "name": "Fairfax Financial Holdings"
+  },
+  {
+    "id": "INS-0250",
+    "name": "Wawanesa Mutual Insurance"
+  }
+]

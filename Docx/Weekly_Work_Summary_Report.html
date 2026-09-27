@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Weekly Engineering Work & Implementation Report</title>
+<style>
+  @page {
+    size: A4;
+    margin: 18mm 18mm 18mm 18mm;
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #2d3748;
+    line-height: 1.5;
+    font-size: 13px;
+    background: #f8fafc;
+    margin: 0;
+    padding: 20px;
+  }
+  .page-container {
+    max-width: 820px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 35px 45px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  .header {
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 12px;
+    margin-bottom: 18px;
+  }
+  h1 {
+    color: #1b365d;
+    font-size: 22px;
+    margin: 0 0 6px 0;
+    font-weight: 700;
+  }
+  .subtitle {
+    color: #718096;
+    font-size: 13px;
+    margin: 0 0 12px 0;
+  }
+  .meta-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    background: #f7fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 10px 14px;
+    font-size: 12px;
+  }
+  .meta-item strong {
+    color: #1b365d;
+  }
+  h2 {
+    color: #1b365d;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #edf2f7;
+    padding-bottom: 4px;
+  }
+  h3 {
+    color: #2b6cb0;
+    font-size: 13px;
+    margin-top: 14px;
+    margin-bottom: 6px;
+  }
+  p {
+    margin: 0 0 8px 0;
+  }
+  ul {
+    margin: 0 0 10px 0;
+    padding-left: 20px;
+  }
+  li {
+    margin-bottom: 4px;
+  }
+  li strong {
+    color: #1a202c;
+  }
+  .code-box {
+    background: #f8fafc;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    padding: 10px 14px;
+    font-family: "Cascadia Code", "Consolas", Courier, monospace;
+    font-size: 11px;
+    color: #1b365d;
+    white-space: pre;
+    overflow-x: auto;
+    margin: 10px 0;
+    line-height: 1.35;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0 14px 0;
+    font-size: 11.5px;
+  }
+  th {
+    background: #1b365d;
+    color: #ffffff;
+    text-align: left;
+    padding: 7px 10px;
+    font-weight: 600;
+  }
+  td {
+    padding: 6px 10px;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  tr:nth-child(even) td {
+    background: #f7fafc;
+  }
+  .badge-completed {
+    background: #c6f6d5;
+    color: #22543d;
+    padding: 2px 8px;
+    border-radius: 9999px;
+    font-weight: 600;
+    font-size: 10px;
+    display: inline-block;
+  }
+  .page-break {
+    page-break-after: always;
+  }
+  @media print {
+    body {
+      background: #ffffff;
+      padding: 0;
+    }
+    .page-container {
+      box-shadow: none;
+      padding: 0;
+    }
+    .no-print {
+      display: none;
+    }
+  }
+  .download-bar {
+    background: #ebf8ff;
+    border: 1px solid #bee3f8;
+    color: #2b6cb0;
+    padding: 10px 15px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .print-btn {
+    background: #2b6cb0;
+    color: #fff;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+</style>
+</head>
+<body>
+
+<div class="page-container">
+
+  <div class="download-bar no-print">
+    <span>📄 <strong>Print/Save to PDF:</strong> Click the button or press <code>Ctrl + P</code></span>
+    <button class="print-btn" onclick="window.print()">Print / Save as PDF</button>
+  </div>
+
+  <div class="header">
+    <h1>Weekly Engineering Work & Implementation Report</h1>
+    <div class="subtitle">Insurance Prospect IQ Platform (Prospect AI) | Weekly Sprint Summary</div>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>Project Name:</strong> Insurance Prospect IQ Platform</div>
+      <div class="meta-item"><strong>Sprint Period:</strong> Sprint Review</div>
+      <div class="meta-item"><strong>Architecture:</strong> React 19 + FastAPI + PostgreSQL + Gemini/Ollama</div>
+      <div class="meta-item"><strong>Status:</strong> Completed & Verified</div>
+    </div>
+  </div>
+
+  <h2>1. Executive Summary</h2>
+  <p>
+    During this sprint, major engineering advancements across UI modernization, AI inference resilience, security, and database architecture were accomplished. The platform was upgraded from a static reporting dashboard into an interactive conversational underwriting intelligence copilot. Key deliverables include full-stack JWT authentication with UUID-based multi-tenant data isolation, a two-tier AI synthesis pipeline (Gemini 3.6 Flash + Local Ollama fallback) integrated with Tavily AI web research, and a normalized PostgreSQL relational database with full Entity-Relationship (ER) schema modeling.
+  </p>
+
+  <h2>2. UI Modernization & Conversational Chat Interface</h2>
+  <p>To elevate underwriting efficiency, the legacy static analysis view was enhanced into an interactive copilot workflow:</p>
+  <ul>
+    <li><strong>Dedicated Chat Interface & Floating Widget:</strong> Implemented <code>ChatInterface.jsx</code> and <code>ChatWidget.jsx</code> to provide an AI-powered underwriting copilot accessible anywhere in the application.</li>
+    <li><strong>Context-Grounded Q&A Engine:</strong> Engineered automatic parameter mapping (<code>detect_parameter_match()</code>) in the backend to route natural language queries directly to verified dossier evidence (Financial Strength, Solvency, Claims, Scale), preventing AI hallucinations.</li>
+    <li><strong>Sidebar & Navigation Overhaul:</strong> Built responsive <code>Sidebar.jsx</code> enabling fast switching between historical prospect dossiers, active research progress indicators, and user session management.</li>
+  </ul>
+
+  <div class="page-break"></div>
+
+  <h2>3. Full-Stack Authentication & Security Implementation</h2>
+  <p>Implemented enterprise-grade authentication and user data isolation across the frontend and backend:</p>
+  <ul>
+    <li><strong>Cryptographic Password Hashing:</strong> Integrated <code>bcrypt</code> with 12 salt rounds (<code>auth/security.py</code>) ensuring zero plain text credential storage.</li>
+    <li><strong>JWT Access Token Flow:</strong> Built token issuance and validation using the <code>HS256</code> algorithm with configurable expiration (<code>auth/jwt.py</code>). Protected endpoints are secured via FastAPI's <code>get_current_user</code> dependency.</li>
+    <li><strong>Axios Request & Response Interceptors:</strong> Configured automated Bearer token injection for all outgoing API requests and automatic session invalidation on HTTP 401 Unauthorized responses (<code>api/client.js</code>).</li>
+    <li><strong>UUID-Based Multi-Tenant Data Isolation:</strong> Replaced sequential auto-increment integer IDs with cryptographically secure 128-bit UUIDs (<code>uuid.uuid4()</code>) to link users with their dossiers, preventing Insecure Direct Object Reference (IDOR) vulnerabilities and data enumeration.</li>
+  </ul>
+
+  <h2>4. Hybrid AI Engine & Deep Web Research Pipeline</h2>
+  <p>Engineered a resilient multi-tier synthesis architecture combining cloud and local AI inference with deep web search:</p>
+  <ul>
+    <li><strong>Tavily AI Search Collector:</strong> Integrated Tavily Search (<code>research/collectors/tavily_search.py</code>) to harvest high-density contextual financial web data alongside Google News RSS and regulatory registries.</li>
+    <li><strong>Local Ollama Fallback Engine:</strong> Developed <code>ai/ollama.py</code> with dynamic local model discovery (prioritizing <code>qwen2.5:1.5b</code>, <code>llama3.2:3b</code>), enabling uninterrupted AI analysis even when cloud quotas or internet connectivity fail.</li>
+    <li><strong>Multi-Tier AI Fallback Chain:</strong> Configured Tier 1 (Google Gemini 3.6 Flash) &rarr; Tier 2 (Local Ollama on localhost:11434) &rarr; Tier 3 (Explicit Diagnostic Root-Cause Reporter).</li>
+    <li><strong>Data Sanitization Pipeline:</strong> Built regex-based text sanitation (<code>clean_fact_text</code> and <code>limit_to_sentences</code>) to strip HTML tags, markdown tables, and navigation noise, generating crisp 3-sentence executive summaries.</li>
+  </ul>
+
+  <div class="page-break"></div>
+
+  <h2>5. PostgreSQL Database Architecture & ER Modeling</h2>
+  <p>The relational database schema is designed with strict multi-tenant isolation, cascade rules, and relational integrity. The relationship between Users and Analyses is a 1-to-Many relationship (One User has Many Analyses).</p>
+
+  <h3>Entity-Relationship (ER) Schema Overview</h3>
+  <div class="code-box">
+┌────────────────────────────────┐         1:N (Owns)         ┌──────────────────────────────────────┐
+│         USERS TABLE            │ ─────────────────────────── │           ANALYSES TABLE             │
+├────────────────────────────────┤                             ├──────────────────────────────────────┤
+│ • id: INTEGER [PK]             │                             │ • id: INTEGER [PK]                   │
+│ • uuid: VARCHAR(36) [UK]       │ ◄─────────────────────────  │ • user_uuid: VARCHAR(36) [FK]        │
+│ • name: VARCHAR(255)           │      (CASCADE ON DELETE)    │ • user_id: INTEGER [FK]              │
+│ • email: VARCHAR(255) [UK]     │                             │ • company_name: VARCHAR              │
+│ • password_hash: VARCHAR(255)  │                             │ • report_data: JSON (8 Parameters)   │
+│ • role: VARCHAR(50)            │                             │ • executive_summary: TEXT            │
+│ • is_active: BOOLEAN           │                             │ • overall_quality_score: FLOAT       │
+│ • created_at: TIMESTAMP        │                             │ • created_at: TIMESTAMP              │
+└────────────────────────────────┘                             └──────────────────────────────────────┘</div>
+
+  <h3>Relational Data Dictionary</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Table</th>
+        <th>Field Name</th>
+        <th>Data Type & Constraints</th>
+        <th>Functional Purpose</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>users</strong></td>
+        <td>id</td>
+        <td>INTEGER, PK, Auto-Inc</td>
+        <td>Surrogate internal primary key</td>
+      </tr>
+      <tr>
+        <td><strong>users</strong></td>
+        <td>uuid</td>
+        <td>VARCHAR(36), UK, Indexed</td>
+        <td>Public 128-bit UUID for secure foreign referencing</td>
+      </tr>
+      <tr>
+        <td><strong>users</strong></td>
+        <td>email</td>
+        <td>VARCHAR(255), UK, Indexed</td>
+        <td>Unique user login credential</td>
+      </tr>
+      <tr>
+        <td><strong>users</strong></td>
+        <td>password_hash</td>
+        <td>VARCHAR(255), Not Null</td>
+        <td>12-round salted Bcrypt password hash</td>
+      </tr>
+      <tr>
+        <td><strong>analyses</strong></td>
+        <td>id</td>
+        <td>INTEGER, PK, Auto-Inc</td>
+        <td>Unique prospect dossier record ID</td>
+      </tr>
+      <tr>
+        <td><strong>analyses</strong></td>
+        <td>user_uuid</td>
+        <td>VARCHAR(36), FK (Cascade)</td>
+        <td>Foreign Key linking record to owning user UUID</td>
+      </tr>
+      <tr>
+        <td><strong>analyses</strong></td>
+        <td>company_name</td>
+        <td>VARCHAR, Indexed</td>
+        <td>Name of evaluated enterprise prospect</td>
+      </tr>
+      <tr>
+        <td><strong>analyses</strong></td>
+        <td>report_data</td>
+        <td>JSON</td>
+        <td>Structured JSON containing all 8 underwriting parameters</td>
+      </tr>
+      <tr>
+        <td><strong>analyses</strong></td>
+        <td>executive_summary</td>
+        <td>TEXT</td>
+        <td>Synthesized C-level executive summary</td>
+      </tr>
+      <tr>
+        <td><strong>analyses</strong></td>
+        <td>created_at</td>
+        <td>TIMESTAMP</td>
+        <td>Creation timestamp for history and auditing</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>6. Deliverables & Milestone Summary</h2>
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 25%;">Sprint Feature Area</th>
+        <th style="width: 15%;">Status</th>
+        <th style="width: 60%;">Technical Deliverable & Impact</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Conversational UI</strong></td>
+        <td><span class="badge-completed">COMPLETED</span></td>
+        <td><code>ChatInterface.jsx</code>, <code>ChatWidget.jsx</code> & intelligent parameter context routing.</td>
+      </tr>
+      <tr>
+        <td><strong>JWT Authentication</strong></td>
+        <td><span class="badge-completed">COMPLETED</span></td>
+        <td>Bcrypt hashing, access token issuance, Axios interceptors & UUID tenant isolation.</td>
+      </tr>
+      <tr>
+        <td><strong>Local Ollama AI</strong></td>
+        <td><span class="badge-completed">COMPLETED</span></td>
+        <td><code>ai/ollama.py</code> local LLM fallback with dynamic model auto-discovery.</td>
+      </tr>
+      <tr>
+        <td><strong>Tavily AI Search</strong></td>
+        <td><span class="badge-completed">COMPLETED</span></td>
+        <td>Tavily deep web collector for enriched financial & regulatory evidence gathering.</td>
+      </tr>
+      <tr>
+        <td><strong>Relational ER Schema</strong></td>
+        <td><span class="badge-completed">COMPLETED</span></td>
+        <td>Normalized PostgreSQL database schema with cascading 1:N user-to-dossier relations.</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+</body>
+</html>

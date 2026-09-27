@@ -1,0 +1,121 @@
+{
+  "greeting_triggers": [
+    "hello",
+    "hi",
+    "hey",
+    "greetings",
+    "good morning",
+    "good afternoon",
+    "good evening"
+  ],
+  "default_greeting_response": "Hello! How can I assist you with your prospect analysis today?",
+  "greeting_rules": [
+    {
+      "triggers": ["how does this system work", "how does it work"],
+      "response": "Prospect AI is a B2B Underwriting & Intelligence Platform. Enter any insurance prospect name to generate a multi-source 8-parameter underwriting dossier grounded in verified disclosures."
+    },
+    {
+      "triggers": ["what parameters", "which parameters", "supported parameters"],
+      "response": "I can analyze 8 core underwriting parameters: Financial Strength, Insurance Performance, Technology Activity, Company Scale, Business Growth, Market Position, Operational Scale, and Strategic Activity."
+    },
+    {
+      "triggers": ["thank you", "thanks", "thank you so much", "thx"],
+      "response": "You're welcome! Let me know if you need further underwriting intelligence."
+    }
+  ],
+  "unsupported_triggers": [
+    "book a flight",
+    "book flight",
+    "hotel reservation",
+    "order food",
+    "weather forecast",
+    "send email",
+    "private password"
+  ],
+  "unsupported_response": "I specialize in B2B prospect analysis and underwriting intelligence. I cannot perform external tasks such as flight bookings or non-business actions.",
+  "parameter_vocabulary_map": {
+    "Company Scale": [
+      "company scale",
+      "scale",
+      "revenue",
+      "asset",
+      "headcount",
+      "employees",
+      "workforce",
+      "valuation",
+      "enterprise"
+    ],
+    "Business Growth": [
+      "business growth",
+      "growth",
+      "expansion",
+      "trajectory",
+      "yoy",
+      "momentum",
+      "premium growth"
+    ],
+    "Market Position": [
+      "market position",
+      "market share",
+      "ranking",
+      "position",
+      "competitor",
+      "moat",
+      "peer"
+    ],
+    "Financial Strength": [
+      "financial strength",
+      "financial",
+      "solvency",
+      "capital adequacy",
+      "roe",
+      "pat",
+      "net worth",
+      "aum",
+      "profitability"
+    ],
+    "Insurance Performance": [
+      "insurance performance",
+      "insurance",
+      "underwriting",
+      "combined ratio",
+      "gwp",
+      "gross written premium",
+      "claims",
+      "loss ratio",
+      "persistency"
+    ],
+    "Operational Scale": [
+      "operational scale",
+      "operational",
+      "branch",
+      "distribution",
+      "agency",
+      "agents",
+      "footprint",
+      "network"
+    ],
+    "Technology Activity": [
+      "technology activity",
+      "technology",
+      "tech",
+      "digital",
+      "ai",
+      "cloud",
+      "automation",
+      "rpa",
+      "chatbot"
+    ],
+    "Strategic Activity": [
+      "strategic activity",
+      "strategic",
+      "partnership",
+      "alliances",
+      "m&a",
+      "acquisition",
+      "product launch",
+      "launch"
+    ]
+  }
+}
+
